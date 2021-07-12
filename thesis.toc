@@ -1,3 +1,37 @@
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
-\contentsline {section}{\numberline {2}Conclusion}{2}{section.2}%
-\contentsline {section}{References}{3}{section.2}%
+\contentsline {subsection}{\numberline {1.1}Motivation}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Problem Statement}{1}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Background}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Open-source Software}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}National Vulnerability Database}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Common Vulnerabilities \& Exposure}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Data Scraping}{4}{subsection.2.4}%
+\contentsline {paragraph}{}{4}{section*.6}%
+\contentsline {subsection}{\numberline {2.5}Vulnerability Analysis}{4}{subsection.2.5}%
+\contentsline {paragraph}{}{5}{section*.7}%
+\contentsline {subsection}{\numberline {2.6}Dependency Manager}{5}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Components of Dependency Manager}{6}{subsubsection.2.6.1}%
+\contentsline {section}{\numberline {3}Literature Survey}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Evolution of Vulnerability Analysis}{7}{subsection.3.1}%
+\contentsline {paragraph}{}{7}{section*.8}%
+\contentsline {subsubsection}{\numberline {3.1.1}Benefits}{7}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Vulnerability Attacks}{8}{subsubsection.3.1.2}%
+\contentsline {paragraph}{}{8}{section*.9}%
+\contentsline {subsubsection}{\numberline {3.1.3}Types of Vulnerability Analysis}{9}{subsubsection.3.1.3}%
+\contentsline {paragraph}{}{10}{section*.10}%
+\contentsline {subsubsection}{\numberline {3.1.4}Vulnerability Databases}{11}{subsubsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.2}Data Scraping}{11}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Types of Data Scraping}{11}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Challenges}{11}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Data Scraping Methods}{11}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}String Distance Metrics}{11}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Hamming Distance}{11}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Levenshtein distance}{11}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Damerau-Levenshtein distance}{11}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Jaro Distance}{11}{subsubsection.3.3.4}%
+\contentsline {section}{\numberline {4}Design \& Architecture}{12}{section.4}%
+\contentsline {section}{\numberline {5}Implementation}{13}{section.5}%
+\contentsline {section}{\numberline {6}Results \& Discussion}{14}{section.6}%
+\contentsline {section}{\numberline {7}Conclusion}{15}{section.7}%
+\contentsline {section}{\numberline {8}Future Work}{16}{section.8}%
+\contentsline {section}{References}{17}{section.8}%
