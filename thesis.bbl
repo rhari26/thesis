@@ -1,8 +1,42 @@
-\begin{thebibliography}{Tur38}
+\begin{thebibliography}{NMED14}
 
-\bibitem[Tur38]{tur38}
+\bibitem[AUS05]{KeJaSa2005}
+Kemal Altinkemer, Jackie Ulmer, and Sanjay Sridhar.
+\newblock Vulnerabilities and risk management of open source software: An
+  empirical study.
+\newblock 01 2005.
+
+\bibitem[HHR13]{MiViIa2013}
+Michael Heron, Vicki Hanson, and Ian Ricketts.
+\newblock Open source and accessibility: Advantages and limitations.
+\newblock {\em Journal of Interaction Science}, 1, 01 2013.
+
+\bibitem[Maa19]{WinNT}
+Gilad~David Maayan.
+\newblock The dangers of open-source vulnerabilities, and what you can do about
+  it, 2019.
+
+\bibitem[NMED14]{KaDaPeTu2014}
+Kartik Nayak, Daniel Marino, Petros Efstathopoulos, and Tudor Dumitra{\c{s}}.
+\newblock Some vulnerabilities are different than others.
+\newblock In Angelos Stavrou, Herbert Bos, and Georgios Portokalidis, editors,
+  {\em Research in Attacks, Intrusions and Defenses}, pages 426--446, Cham,
+  2014. Springer International Publishing.
+
+\bibitem[Tur38a]{tur38}
 Alan~Mathison Turing.
 \newblock {\em {Systems of Logic Based on Ordinals: a Dissertation}}.
 \newblock {Ph.D.} dissertation, Cambridge University, Cambridge, UK, 1938.
+
+\bibitem[Tur38b]{fil2}
+Alan~Mathison Turing.
+\newblock {\em {Systems of Logic Based on Ordinals: a Dissertation}}.
+\newblock {Ph.D.} dissertation, Cambridge University, Cambridge, UK, 1938.
+
+\bibitem[Wei11]{zh2011}
+Zhaohui Wei.
+\newblock Research on the application of open source software in digital
+  library.
+\newblock {\em Procedia Engineering}, 15:1662--1667, 12 2011.
 
 \end{thebibliography}

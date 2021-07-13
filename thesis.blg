@@ -1,3 +1,64 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: alpha.bst
+Reallocating 'name_of_file' (item size: 1) to 24 items.
 Database file #1: bibliography/references.bib
+Warning--entry type for "WinNT" isn't style-file defined
+--line 40 of file bibliography/references.bib
+Repeated entry---line 67 of file bibliography/references.bib
+ : @online{WinNT
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 75 of file bibliography/references.bib
+ : @inproceedings{KaDaPeTu2014
+ :                            ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 483 of file bibliography/references.bib
+ :  YEAR = {2018}, 
+ :                 % I looked it up
+I'm skipping whatever remains of this entry
+Warning--empty journal in KeJaSa2005
+You've used 7 entries,
+            2543 wiz_defined-function locations,
+            601 strings with 5450 characters,
+and the built_in function-call counts, 2580 in all, are:
+= -- 255
+> -- 124
+< -- 5
++ -- 43
+- -- 41
+* -- 177
+:= -- 447
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 42
+chr.to.int$ -- 6
+cite$ -- 8
+duplicate$ -- 104
+empty$ -- 174
+format.name$ -- 52
+if$ -- 515
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 37
+num.names$ -- 23
+pop$ -- 42
+preamble$ -- 1
+purify$ -- 49
+quote$ -- 0
+skip$ -- 87
+stack$ -- 0
+substring$ -- 109
+swap$ -- 15
+text.length$ -- 5
+text.prefix$ -- 4
+top$ -- 0
+type$ -- 56
+warning$ -- 1
+while$ -- 22
+width$ -- 10
+write$ -- 92
+(There were 3 error messages)

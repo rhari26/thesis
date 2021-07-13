@@ -20,18 +20,22 @@
 \contentsline {subsubsection}{\numberline {3.1.3}Types of Vulnerability Analysis}{9}{subsubsection.3.1.3}%
 \contentsline {paragraph}{}{10}{section*.10}%
 \contentsline {subsubsection}{\numberline {3.1.4}Vulnerability Databases}{11}{subsubsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.2}Data Scraping}{11}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Types of Data Scraping}{11}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Challenges}{11}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Data Scraping Methods}{11}{subsubsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.3}String Distance Metrics}{11}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Hamming Distance}{11}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Levenshtein distance}{11}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Damerau-Levenshtein distance}{11}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}Jaro Distance}{11}{subsubsection.3.3.4}%
-\contentsline {section}{\numberline {4}Design \& Architecture}{12}{section.4}%
-\contentsline {section}{\numberline {5}Implementation}{13}{section.5}%
-\contentsline {section}{\numberline {6}Results \& Discussion}{14}{section.6}%
-\contentsline {section}{\numberline {7}Conclusion}{15}{section.7}%
-\contentsline {section}{\numberline {8}Future Work}{16}{section.8}%
-\contentsline {section}{References}{17}{section.8}%
+\contentsline {paragraph}{}{11}{section*.11}%
+\contentsline {paragraph}{}{11}{section*.12}%
+\contentsline {paragraph}{}{12}{section*.13}%
+\contentsline {subsection}{\numberline {3.2}Data Scraping}{16}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Types of Data Scraping}{16}{subsubsection.3.2.1}%
+\contentsline {paragraph}{}{17}{section*.14}%
+\contentsline {subsubsection}{\numberline {3.2.2}Challenges}{18}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Data Scraping Methods}{18}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}String Distance Metrics}{19}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Hamming Distance}{19}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Levenshtein distance}{20}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Damerau-Levenshtein distance}{21}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Jaro Distance}{21}{subsubsection.3.3.4}%
+\contentsline {section}{\numberline {4}Design \& Architecture}{22}{section.4}%
+\contentsline {section}{\numberline {5}Implementation}{23}{section.5}%
+\contentsline {section}{\numberline {6}Results \& Discussion}{24}{section.6}%
+\contentsline {section}{\numberline {7}Conclusion}{25}{section.7}%
+\contentsline {section}{\numberline {8}Future Work}{26}{section.8}%
+\contentsline {section}{References}{27}{section.8}%
