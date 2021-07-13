@@ -1,4 +1,34 @@
-\begin{thebibliography}{NMED14}
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{FRPCDP18}
+
+\bibitem[201]{Dm2018}
+Devopedia. 2018.
+\newblock Dependency manager.
+
+\bibitem[AH16]{RaLo2016}
+Rashad Aliyev and Lourdes Herrero.
+\newblock Analyzing vulnerability databases.
+\newblock 10 2016.
+
+\bibitem[AKAA15]{AlAl2015}
+O.~B. Al-Khurafi and M.~A. Al-Ahmad.
+\newblock Survey of web application vulnerability attacks.
+\newblock In {\em 2015 4th International Conference on Advanced Computer
+  Science Applications and Technologies (ACSAT)}, pages 154--158, Los Alamitos,
+  CA, USA, dec 2015. IEEE Computer Society.
+
+\bibitem[AKTY06]{AsRaRaYu2006}
+Ashish Arora, Ramayya Krishnan, Rahul Telang, and Yubao Yang.
+\newblock An empirical analysis of software vendors' patching behavior: Impact
+  of vulnerability disclosure.
+\newblock page~22, 01 2006.
+
+\bibitem[Alq17]{Al2017}
+S.~S. Alqahtani.
+\newblock Enhancing trust â€“ software vulnerability analysis framework.
+\newblock In {\em 2017 IEEE International Conference on Software Testing,
+  Verification and Validation (ICST)}, pages 563--564, Los Alamitos, CA, USA,
+  mar 2017. IEEE Computer Society.
 
 \bibitem[AUS05]{KeJaSa2005}
 Kemal Altinkemer, Jackie Ulmer, and Sanjay Sridhar.
@@ -6,15 +36,132 @@ Kemal Altinkemer, Jackie Ulmer, and Sanjay Sridhar.
   empirical study.
 \newblock 01 2005.
 
+\bibitem[Bug]{BugTraq}
+Bugtraq.
+\newblock \url{https://www.securityfocus.com/archive/1/description#0.2.1}.
+\newblock Accessed: 01.03.2021.
+
+\bibitem[CAS{\etalchar{+}}04]{CuAnSaMaSh2004}
+M.~Cukier, N.~Anand, W.~H. Sanders, J.~R. Martin, and A.~Sharma.
+\newblock Ferret: A host vulnerability checking tool.
+\newblock In {\em Pacific Rim International Symposium on Dependable Computing,
+  IEEE}, pages 389--394, Los Alamitos, CA, USA, mar 2004. IEEE Computer
+  Society.
+
+\bibitem[Cue17]{Cuelogic}
+Cuelogic.
+\newblock The levenshtein algorithm, 2017.
+
+\bibitem[cve]{cve}
+Cve - faq.
+\newblock \url{https://cve.mitre.org/about/faqs.html}.
+\newblock Accessed: 01.03.2021.
+
+\bibitem[DAT]{NVDgraph}
+NATIONAL~VULNERABILITY DATABASE.
+\newblock Cvss severity distribution over time.
+
+\bibitem[DWG04]{DiWhGo2004}
+G.~Dietrich, G.~B. White, and T.~Goles.
+\newblock Cyber security exercises: Testing an organization?s ability to
+  prevent, detect, and respond to cyber security events.
+\newblock In {\em 2014 47th Hawaii International Conference on System
+  Sciences}, volume~8, page 70170a, Los Alamitos, CA, USA, jan 2004. IEEE
+  Computer Society.
+
+\bibitem[End19]{Stat2021}
+Statistical Odds~\& Ends.
+\newblock Jaro \& jaro-winkler similarity, 2019.
+
+\bibitem[FRPCDP18]{FlPeDoPu2018}
+S.~Flores-Ruiz, R.~Perez-Castillo, C.~Domann, and S.~Puica.
+\newblock Mainframe migration based on screen scraping.
+\newblock In {\em 2018 IEEE International Conference on Software Maintenance
+  and Evolution (ICSME)}, pages 675--684, Los Alamitos, CA, USA, sep 2018. IEEE
+  Computer Society.
+
+\bibitem[Gil]{Alex2021}
+Alexander~S. Gillis.
+\newblock Screen scraping.
+
+\bibitem[Gla19]{Rh2019}
+Rhett Glauser.
+\newblock A history of the vulnerability management lifecycle, 2019.
+
+\bibitem[GS17]{Va2017}
+Anna Granova and Marco Slaviero.
+\newblock Chapter 83 - cyber warfare.
+\newblock In John~R. Vacca, editor, {\em Computer and Information Security
+  Handbook (Third Edition)}, pages 1085--1104. Morgan Kaufmann, Boston, third
+  edition edition, 2017.
+
 \bibitem[HHR13]{MiViIa2013}
 Michael Heron, Vicki Hanson, and Ian Ricketts.
 \newblock Open source and accessibility: Advantages and limitations.
 \newblock {\em Journal of Interaction Science}, 1, 01 2013.
 
-\bibitem[Maa19]{WinNT}
+\bibitem[Ibm]{IbmXforce}
+Ibm x-force.
+\newblock \url{https://www.ibm.com/in-en/security/xforce}.
+\newblock Accessed: 01.03.2021.
+
+\bibitem[Imp]{Im2021}
+Inc. Imperva.
+\newblock Database security assessment.
+
+\bibitem[Ins]{CertDiv}
+Software~Engineering Institute.
+\newblock The cert division.
+
+\bibitem[JM08]{JaMe2008}
+G.~Jabbour and D.~A. Menasce.
+\newblock Policy-based enforcement of database security configuration through
+  autonomic capabilities.
+\newblock In {\em 2008 4th International Conference on Autonomic and Autonomous
+  Systems}, pages 188--197, Los Alamitos, CA, USA, mar 2008. IEEE Computer
+  Society.
+
+\bibitem[Kas17]{Kaspersky}
+Kaspersky.
+\newblock The biggest ransomware threats of 2017, 2017.
+
+\bibitem[KS15]{KoSa2015}
+R.~Koizumi and R.~Sasaki.
+\newblock Study on countermeasures using mitigation software against
+  vulnerability attacks.
+\newblock In {\em 2015 Fourth International Conference on Cyber Security, Cyber
+  Warfare and Digital Forensic (CyberSec)}, pages 28--33, Los Alamitos, CA,
+  USA, oct 2015. IEEE Computer Society.
+
+\bibitem[Kun21]{Ak2021}
+Arnab Kundu.
+\newblock Jaro \& jaro-winkler similarity, 2021.
+
+\bibitem[LA11]{LoAc2011}
+L.~Lowis and R.~Accorsi.
+\newblock Vulnerability analysis in soa-based business processes.
+\newblock {\em IEEE Transactions on Services Computing}, 4(03):230--242, jul
+  2011.
+
+\bibitem[Maa19]{Gilad}
 Gilad~David Maayan.
 \newblock The dangers of open-source vulnerabilities, and what you can do about
   it, 2019.
+
+\bibitem[Mat17]{Ma2017}
+Seun Matt.
+\newblock What are dependency managers?, 2017.
+
+\bibitem[nis]{nist}
+Nist- national vulnerability database.
+\newblock \url{https://nvd.nist.gov/general}.
+\newblock Accessed: 01.03.2021.
+
+\bibitem[NJM18]{NaJaMa2018}
+Z.~Nasar, S.W. Jaffry, and M.K Malik.
+\newblock Information extraction from scientific articles: a survey.
+\newblock {\em International Journal for all Quantitative Aspects of the
+  Science of Science}, 117, 09 2018.
 
 \bibitem[NMED14]{KaDaPeTu2014}
 Kartik Nayak, Daniel Marino, Petros Efstathopoulos, and Tudor Dumitra{\c{s}}.
@@ -23,20 +170,116 @@ Kartik Nayak, Daniel Marino, Petros Efstathopoulos, and Tudor Dumitra{\c{s}}.
   {\em Research in Attacks, Intrusions and Defenses}, pages 426--446, Cham,
   2014. Springer International Publishing.
 
+\bibitem[Oos04]{Alex2004}
+Alex~van Oostenrijk.
+\newblock Screen scraping web services.
+\newblock 12 2004.
+
+\bibitem[PD89]{NePa1989}
+Neumann P.G. and Parker D.B.
+\newblock A summary of computer misuse techniques.
+\newblock {\em 12th Nat’l Computer Security Conf}, pages 396--406, 10 1989.
+
+\bibitem[Rad]{Radware}
+Radware.
+\newblock An overview of web scraping techniques.
+
+\bibitem[Ros]{WinNT}
+Linda Rosencrance.
+\newblock vulnerability assessment (vulnerability analysis).
+
+\bibitem[S18]{DataWH}
+Vithal S.
+\newblock Different extraction methods in data warehouse, 2018.
+
+\bibitem[Say]{Saed2021}
+Dr.~Saed Sayad.
+\newblock K nearest neighbors - classification.
+
+\bibitem[SB16]{SaBa2016}
+A.~Sampaio and J.~G. Barbosa.
+\newblock A study on cloud cost efficiency by exploiting idle billing period
+  fractions.
+\newblock In {\em 2017 IEEE International Conference on Smart Cloud
+  (SmartCloud)}, pages 138--143, Los Alamitos, CA, USA, nov 2016. IEEE Computer
+  Society.
+
+\bibitem[Sec]{SecurityFocus}
+Securityfocus.
+\newblock \url{https://www.securityfocus.com/bid/109320}.
+\newblock Accessed: 01.03.2021.
+
+\bibitem[Sna]{Snap}
+Snaplogic.
+\newblock Study: Businesses losing 140 billion annually to disconnected data.
+
+\bibitem[Sre]{Syamini}
+Syamini Sreedharan.
+\newblock What is vulnerability assessment. testing process, vapt scan tool.
+
+\bibitem[ss18]{TheNVD}
+White source software.
+\newblock The national vulnerability database explained, 2018.
+
+\bibitem[Tok15]{Tok2015}
+Natalia Tokareva.
+\newblock Chapter 11 - distances between bent functions.
+\newblock In Natalia Tokareva, editor, {\em Bent Functions}, pages 89--96.
+  Academic Press, Boston, 2015.
+
 \bibitem[Tur38a]{tur38}
 Alan~Mathison Turing.
-\newblock {\em {Systems of Logic Based on Ordinals: a Dissertation}}.
-\newblock {Ph.D.} dissertation, Cambridge University, Cambridge, UK, 1938.
+\newblock {\em Systems of Logic Based on Ordinals: a Dissertation}.
+\newblock Ph.d., Cambridge University, Cambridge, UK, 1938.
 
 \bibitem[Tur38b]{fil2}
 Alan~Mathison Turing.
-\newblock {\em {Systems of Logic Based on Ordinals: a Dissertation}}.
-\newblock {Ph.D.} dissertation, Cambridge University, Cambridge, UK, 1938.
+\newblock {\em Systems of Logic Based on Ordinals: a Dissertation}.
+\newblock Ph.d., Cambridge University, Cambridge, UK, 1938.
+
+\bibitem[VKCK08]{VuKhChFe2008}
+H.~L. Vu, K.~K. Khaw, T.~Chen, and Fei-Ching Kuo.
+\newblock A new approach for network vulnerability analysis.
+\newblock In {\em 2008 33rd IEEE Conference on Local Computer Networks (LCN
+  2008)}, Los Alamitos, CA, USA, oct 2008. IEEE Computer Society.
+
+\bibitem[Vul]{VulTest}
+The importance of vulnerability testing.
+\newblock \url{https://ancgroup.com/the-importance-of-vulnerability-testing/}.
+\newblock Accessed: 01.03.2021.
+
+\bibitem[Web21]{Web2021}
+Webopedia.
+\newblock Cert/cc, 2021.
 
 \bibitem[Wei11]{zh2011}
 Zhaohui Wei.
 \newblock Research on the application of open source software in digital
   library.
 \newblock {\em Procedia Engineering}, 15:1662--1667, 12 2011.
+
+\bibitem[Wika]{DamLeven}
+Wikipedia.
+\newblock Damerau–levenshtein distance.
+
+\bibitem[Wikb]{JaroWinkler}
+Wikipedia.
+\newblock Jaro–winkler distance.
+
+\bibitem[Wu20]{Wu2020}
+Gang Wu.
+\newblock String similarity metrics – edit distance, 2020.
+
+\bibitem[YLK21]{YoLeKw2021}
+J.~You, J.~Lee, and H.~Kwon.
+\newblock A complete and fast scraping method for collecting tweets.
+\newblock In {\em 2021 IEEE International Conference on Big Data and Smart
+  Computing (BigComp)}, pages 24--27, Los Alamitos, CA, USA, jan 2021. IEEE
+  Computer Society.
+
+\bibitem[ZS19]{ChSa2019}
+Chunchun Zhao and Sartaj Sahni.
+\newblock String correction using the damerau-levenshtein distance.
+\newblock {\em BMC Bioinformatics}, 20:277, 06 2019.
 
 \end{thebibliography}

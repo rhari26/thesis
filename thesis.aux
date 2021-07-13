@@ -17,11 +17,27 @@
 \gdef\HyperFirstAtBeginDocument#1{#1}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{NVDgraph}
+\citation{VuKhChFe2008}
+\citation{nist}
+\citation{SecurityFocus}
+\citation{IbmXforce}
+\citation{CertDiv}
+\citation{SaBa2016}
+\citation{Saed2021}
+\citation{Cuelogic}
+\citation{DamLeven}
+\citation{JaroWinkler}
+\citation{Stat2021}
+\acronymused{CVSS}
+\acronymused{NVD}
+\acronymused{CERT/CC}
 \newacro{DSG}[\AC@hyperlink{DSG}{DSG}]{Distributed Systems Group}
 \newacro{LSPI}[\AC@hyperlink{LSPI}{LSPI}]{Lehrstuhl für Praktische Informatik}
 \newacro{OSS}[\AC@hyperlink{OSS}{OSS}]{Open-source Software}
 \newacro{NVD}[\AC@hyperlink{NVD}{NVD}]{National Vulnerability Database}
 \newacro{CVE}[\AC@hyperlink{CVE}{CVE}]{Common Vulnerabilities and Exposure}
+\newacro{CVSS}[\AC@hyperlink{CVSS}{CVSS}]{Common Vulnerability Scoring System}
 \newacro{CERT/CC}[\AC@hyperlink{CERT/CC}{CERT/CC}]{Computer Emergency Response Team Coordination Center}
 \citation{tur38}
 \citation{KaDaPeTu2014}
@@ -29,9 +45,9 @@
 \citation{WinNT}
 \citation{tur38}
 \citation{KeJaSa2005}
+\citation{RaLo2016}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
 \newlabel{sec:introduction}{{1}{1}{Introduction}{section.1}{}}
-\acronymused{DSG}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Motivation}{1}{subsection.1.1}\protected@file@percent }
 \acronymused{OSS}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Problem Statement}{1}{subsection.1.2}\protected@file@percent }
@@ -42,6 +58,9 @@
 \citation{zh2011}
 \citation{MiViIa2013}
 \citation{MiViIa2013}
+\citation{TheNVD}
+\citation{NVDgraph}
+\citation{cve}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Background}{3}{section.2}\protected@file@percent }
 \newlabel{sec:background}{{2}{3}{Background}{section.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Open-source Software}{3}{subsection.2.1}\protected@file@percent }
@@ -62,6 +81,11 @@
 \acronymused{OSS}
 \acronymused{CVE}
 \acronymused{NVD}
+\citation{NaJaMa2018}
+\citation{DataWH}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \acs {CVSS} Severity Distribution Over Time \cite  {NVDgraph}}}{4}{figure.1}\protected@file@percent }
+\acronymused{CVSS}
+\newlabel{fig:vulgraph}{{1}{4}{\acs {CVSS} Severity Distribution Over Time \cite {NVDgraph}}{figure.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Common Vulnerabilities \& Exposure}{4}{subsection.2.3}\protected@file@percent }
 \acronymused{CVE}
 \acronymused{CVE}
@@ -77,62 +101,145 @@
 \acronymused{CVE}
 \acronymused{CVE}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Data Scraping}{4}{subsection.2.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{}{4}{section*.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Vulnerability Analysis}{4}{subsection.2.5}\protected@file@percent }
 \citation{KeJaSa2005}
 \citation{KeJaSa2005}
+\citation{Ma2017}
+\citation{Dm2018}
+\@writefile{toc}{\contentsline {paragraph}{}{5}{section*.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Vulnerability Analysis}{5}{subsection.2.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{}{5}{section*.7}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Dependency Manager}{5}{subsection.2.6}\protected@file@percent }
+\citation{DataWH}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.6.1}Components of Dependency Manager}{6}{subsubsection.2.6.1}\protected@file@percent }
-\citation{tur38}
+\citation{NePa1989}
+\citation{Rh2019}
+\citation{LoAc2011}
+\citation{Rh2019}
+\citation{VulTest}
 \@writefile{toc}{\contentsline {section}{\numberline {3}Literature Survey}{7}{section.3}\protected@file@percent }
 \newlabel{sec:literature survey}{{3}{7}{Literature Survey}{section.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Evolution of Vulnerability Analysis}{7}{subsection.3.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{}{7}{section*.8}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}Benefits}{7}{subsubsection.3.1.1}\protected@file@percent }
+\citation{Gilad}
+\citation{KoSa2015}
+\citation{AlAl2015}
+\citation{Kaspersky}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2}Vulnerability Attacks}{8}{subsubsection.3.1.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{}{8}{section*.9}\protected@file@percent }
+\citation{VuKhChFe2008}
+\citation{VuKhChFe2008}
+\citation{VuKhChFe2008}
+\citation{CuAnSaMaSh2004}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.3}Types of Vulnerability Analysis}{9}{subsubsection.3.1.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Sample results of the network vulnerability analysis framework[27]}}{9}{figure.1}\protected@file@percent }
-\newlabel{fig:networkanalysis}{{1}{9}{Sample results of the network vulnerability analysis framework[27]}{figure.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Sample results of the network vulnerability analysis framework \cite  {VuKhChFe2008}}}{9}{figure.2}\protected@file@percent }
+\newlabel{fig:networkanalysis}{{2}{9}{Sample results of the network vulnerability analysis framework \cite {VuKhChFe2008}}{figure.2}{}}
+\citation{Im2021}
+\citation{JaMe2008}
+\citation{Al2017}
+\citation{nist}
+\citation{Syamini}
+\acronymused{NVD}
 \@writefile{toc}{\contentsline {paragraph}{}{10}{section*.10}\protected@file@percent }
+\citation{Va2017}
+\citation{LoAc2011}
+\citation{nist}
+\citation{cve}
+\acronymused{NVD}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.4}Vulnerability Databases}{11}{subsubsection.3.1.4}\protected@file@percent }
 \acronymused{CVE}
 \acronymused{CVE}
 \acronymused{CVE}
 \@writefile{toc}{\contentsline {paragraph}{}{11}{section*.11}\protected@file@percent }
+\acronymused{NVD}
+\acronymused{NVD}
+\acronymused{i}
+\acronymused{NVD}
+\acronymused{NVD}
+\acronymused{CVE}
+\acronymused{CVE}
+\acronymused{CVE}
+\acronymused{CVE}
+\acronymused{NVD}
+\acronymused{CVSS}
 \@writefile{toc}{\contentsline {paragraph}{}{11}{section*.12}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces NVD result for “jquery” component.}}{12}{figure.2}\protected@file@percent }
-\newlabel{fig:nvd}{{2}{12}{NVD result for “jquery” component}{figure.2}{}}
+\acronymused{NVD}
+\acronymused{CVE}
+\acronymused{CVSS}
+\citation{nist}
+\citation{BugTraq}
+\citation{AsRaRaYu2006}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \acs {NVD} result for “jquery” component \cite  {nist}.}}{12}{figure.3}\protected@file@percent }
+\acronymused{NVD}
+\newlabel{fig:nvd}{{3}{12}{\acs {NVD} result for “jquery” component \cite {nist}}{figure.3}{}}
 \@writefile{toc}{\contentsline {paragraph}{}{12}{section*.13}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Example of vulnerability publication by SecurityFocus[38].}}{13}{figure.3}\protected@file@percent }
-\newlabel{fig:securityFocus}{{3}{13}{Example of vulnerability publication by SecurityFocus[38]}{figure.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Example of vulnerability publication by IBM X-Force[39].}}{14}{figure.4}\protected@file@percent }
-\newlabel{fig:ibm}{{4}{14}{Example of vulnerability publication by IBM X-Force[39]}{figure.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Example of vulnerability publication by CERT/CC[41].}}{15}{figure.5}\protected@file@percent }
-\newlabel{fig:cert}{{5}{15}{Example of vulnerability publication by CERT/CC[41]}{figure.5}{}}
+\acronymused{CVE}
+\acronymused{CVE}
+\citation{SecurityFocus}
+\citation{IbmXforce}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Example of vulnerability publication by SecurityFocus \cite  {SecurityFocus}.}}{13}{figure.4}\protected@file@percent }
+\newlabel{fig:securityFocus}{{4}{13}{Example of vulnerability publication by SecurityFocus \cite {SecurityFocus}}{figure.4}{}}
+\acronymused{NVD}
+\acronymused{CVE}
+\acronymused{CVSS}
+\citation{IbmXforce}
+\citation{Web2021}
+\citation{CertDiv}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Example of vulnerability publication by IBM X-Force \cite  {IbmXforce}.}}{14}{figure.5}\protected@file@percent }
+\newlabel{fig:ibm}{{5}{14}{Example of vulnerability publication by IBM X-Force \cite {IbmXforce}}{figure.5}{}}
+\acronymused{CERT/CC}
+\acronymused{CERT/CC}
+\acronymused{CERT/CC}
+\acronymused{CERT/CC}
+\acronymused{CERT/CC}
+\citation{CertDiv}
+\citation{DiWhGo2004}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Example of vulnerability publication by \acs {CERT/CC} \cite  {CertDiv}.}}{15}{figure.6}\protected@file@percent }
+\acronymused{CERT/CC}
+\newlabel{fig:cert}{{6}{15}{Example of vulnerability publication by \acs {CERT/CC} \cite {CertDiv}}{figure.6}{}}
+\acronymused{CERT/CC}
+\citation{SaBa2016}
+\citation{SaBa2016}
+\citation{SaBa2016}
+\citation{YoLeKw2021}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Data Scraping}{16}{subsection.3.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Types of Data Scraping}{16}{subsubsection.3.2.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces  Traditional Web Scraper[43].}}{17}{figure.6}\protected@file@percent }
-\newlabel{fig:webscraping}{{6}{17}{Traditional Web Scraper[43]}{figure.6}{}}
+\citation{Alex2021}
+\citation{Snap}
+\citation{FlPeDoPu2018}
+\citation{Alex2004}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces  Traditional Web Scraper \cite  {SaBa2016}.}}{17}{figure.7}\protected@file@percent }
+\newlabel{fig:webscraping}{{7}{17}{Traditional Web Scraper \cite {SaBa2016}}{figure.7}{}}
 \@writefile{toc}{\contentsline {paragraph}{}{17}{section*.14}\protected@file@percent }
+\citation{Radware}
+\citation{Radware}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Challenges}{18}{subsubsection.3.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.3}Data Scraping Methods}{18}{subsubsection.3.2.3}\protected@file@percent }
+\citation{Wu2020}
+\citation{Tok2015}
+\citation{Saed2021}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3}String Distance Metrics}{19}{subsection.3.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Hamming Distance}{19}{subsubsection.3.3.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces  Hamming Distance Formula[53].}}{20}{figure.7}\protected@file@percent }
-\newlabel{fig:hamming}{{7}{20}{Hamming Distance Formula[53]}{figure.7}{}}
+\citation{ChSa2019}
+\citation{Cuelogic}
+\citation{ChSa2019}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces  Hamming Distance Formula \cite  {Saed2021}.}}{20}{figure.8}\protected@file@percent }
+\newlabel{fig:hamming}{{8}{20}{Hamming Distance Formula \cite {Saed2021}}{figure.8}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}Levenshtein distance}{20}{subsubsection.3.3.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces  Levenshtein distance Formula.}}{20}{figure.8}\protected@file@percent }
-\newlabel{fig:levdist}{{8}{20}{Levenshtein distance Formula}{figure.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces  Levenshtein distance Formula \cite  {Cuelogic}.}}{20}{figure.9}\protected@file@percent }
+\newlabel{fig:levdist}{{9}{20}{Levenshtein distance Formula \cite {Cuelogic}}{figure.9}{}}
+\citation{DamLeven}
+\citation{JaroWinkler}
+\citation{Ak2021}
+\citation{Stat2021}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3}Damerau-Levenshtein distance}{21}{subsubsection.3.3.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces  Damerau-Levenshtein Distance formula[56].}}{21}{figure.9}\protected@file@percent }
-\newlabel{fig:dlevidist}{{9}{21}{Damerau-Levenshtein Distance formula[56]}{figure.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces  Damerau-Levenshtein Distance formula \cite  {DamLeven}.}}{21}{figure.10}\protected@file@percent }
+\newlabel{fig:dlevidist}{{10}{21}{Damerau-Levenshtein Distance formula \cite {DamLeven}}{figure.10}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.4}Jaro Distance}{21}{subsubsection.3.3.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces  Jaro similarity formula[57].}}{21}{figure.10}\protected@file@percent }
-\newlabel{fig:jaro}{{10}{21}{Jaro similarity formula[57]}{figure.10}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces  Jaro-Winkler similarity formula[59].}}{21}{figure.11}\protected@file@percent }
-\newlabel{fig:jarowinkler}{{11}{21}{Jaro-Winkler similarity formula[59]}{figure.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces  Jaro similarity formula \cite  {JaroWinkler}.}}{21}{figure.11}\protected@file@percent }
+\newlabel{fig:jaro}{{11}{21}{Jaro similarity formula \cite {JaroWinkler}}{figure.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces  Jaro-Winkler similarity formula \cite  {Stat2021}.}}{21}{figure.12}\protected@file@percent }
+\newlabel{fig:jarowinkler}{{12}{21}{Jaro-Winkler similarity formula \cite {Stat2021}}{figure.12}{}}
 \citation{tur38}
 \@writefile{toc}{\contentsline {section}{\numberline {4}Design \& Architecture}{22}{section.4}\protected@file@percent }
 \newlabel{sec:design_architecture}{{4}{22}{Design \& Architecture}{section.4}{}}
@@ -150,12 +257,58 @@
 \newlabel{sec:future_work}{{8}{26}{Future Work}{section.8}{}}
 \bibstyle{alpha}
 \bibdata{bibliography/references}
+\bibcite{Dm2018}{201}
+\bibcite{RaLo2016}{AH16}
+\bibcite{AlAl2015}{AKAA15}
+\bibcite{AsRaRaYu2006}{AKTY06}
+\bibcite{Al2017}{Alq17}
 \bibcite{KeJaSa2005}{AUS05}
+\bibcite{BugTraq}{Bug}
+\bibcite{CuAnSaMaSh2004}{CAS{$^{+}$}04}
+\bibcite{Cuelogic}{Cue17}
+\bibcite{cve}{cve}
+\bibcite{NVDgraph}{DAT}
+\bibcite{DiWhGo2004}{DWG04}
+\bibcite{Stat2021}{End19}
+\bibcite{FlPeDoPu2018}{FRPCDP18}
+\bibcite{Alex2021}{Gil}
+\bibcite{Rh2019}{Gla19}
+\@writefile{toc}{\contentsline {section}{References}{27}{section.8}\protected@file@percent }
+\bibcite{Va2017}{GS17}
 \bibcite{MiViIa2013}{HHR13}
-\bibcite{WinNT}{Maa19}
+\bibcite{IbmXforce}{Ibm}
+\bibcite{Im2021}{Imp}
+\bibcite{CertDiv}{Ins}
+\bibcite{JaMe2008}{JM08}
+\bibcite{Kaspersky}{Kas17}
+\bibcite{KoSa2015}{KS15}
+\bibcite{Ak2021}{Kun21}
+\bibcite{LoAc2011}{LA11}
+\bibcite{Gilad}{Maa19}
+\bibcite{Ma2017}{Mat17}
+\bibcite{nist}{nis}
+\bibcite{NaJaMa2018}{NJM18}
 \bibcite{KaDaPeTu2014}{NMED14}
+\bibcite{Alex2004}{Oos04}
+\bibcite{NePa1989}{PD89}
+\bibcite{Radware}{Rad}
+\bibcite{WinNT}{Ros}
+\bibcite{DataWH}{S18}
+\bibcite{Saed2021}{Say}
+\bibcite{SaBa2016}{SB16}
+\bibcite{SecurityFocus}{Sec}
+\bibcite{Snap}{Sna}
+\bibcite{Syamini}{Sre}
+\bibcite{TheNVD}{ss18}
+\bibcite{Tok2015}{Tok15}
 \bibcite{tur38}{Tur38a}
 \bibcite{fil2}{Tur38b}
+\bibcite{VuKhChFe2008}{VKCK08}
+\bibcite{VulTest}{Vul}
+\bibcite{Web2021}{Web21}
 \bibcite{zh2011}{Wei11}
-\@writefile{toc}{\contentsline {section}{References}{27}{section.8}\protected@file@percent }
-\gdef \@abspage@last{35}
+\bibcite{DamLeven}{Wika}
+\bibcite{JaroWinkler}{Wikb}
+\bibcite{Wu2020}{Wu20}
+\bibcite{YoLeKw2021}{YLK21}
+\bibcite{ChSa2019}{ZS19}

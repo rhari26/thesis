@@ -1,11 +1,12 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Sample results of the network vulnerability analysis framework[27]}}{9}{figure.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces NVD result for “jquery” component.}}{12}{figure.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Example of vulnerability publication by SecurityFocus[38].}}{13}{figure.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Example of vulnerability publication by IBM X-Force[39].}}{14}{figure.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Example of vulnerability publication by CERT/CC[41].}}{15}{figure.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Traditional Web Scraper[43].}}{17}{figure.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Hamming Distance Formula[53].}}{20}{figure.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Levenshtein distance Formula.}}{20}{figure.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Damerau-Levenshtein Distance formula[56].}}{21}{figure.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Jaro similarity formula[57].}}{21}{figure.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Jaro-Winkler similarity formula[59].}}{21}{figure.11}%
+\contentsline {figure}{\numberline {1}{\ignorespaces \acs {CVSS} Severity Distribution Over Time \cite {NVDgraph}}}{4}{figure.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Sample results of the network vulnerability analysis framework \cite {VuKhChFe2008}}}{9}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces \acs {NVD} result for “jquery” component \cite {nist}.}}{12}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Example of vulnerability publication by SecurityFocus \cite {SecurityFocus}.}}{13}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Example of vulnerability publication by IBM X-Force \cite {IbmXforce}.}}{14}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Example of vulnerability publication by \acs {CERT/CC} \cite {CertDiv}.}}{15}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Traditional Web Scraper \cite {SaBa2016}.}}{17}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Hamming Distance Formula \cite {Saed2021}.}}{20}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Levenshtein distance Formula \cite {Cuelogic}.}}{20}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Damerau-Levenshtein Distance formula \cite {DamLeven}.}}{21}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Jaro similarity formula \cite {JaroWinkler}.}}{21}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Jaro-Winkler similarity formula \cite {Stat2021}.}}{21}{figure.12}%

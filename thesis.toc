@@ -6,8 +6,8 @@
 \contentsline {subsection}{\numberline {2.2}National Vulnerability Database}{3}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Common Vulnerabilities \& Exposure}{4}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Data Scraping}{4}{subsection.2.4}%
-\contentsline {paragraph}{}{4}{section*.6}%
-\contentsline {subsection}{\numberline {2.5}Vulnerability Analysis}{4}{subsection.2.5}%
+\contentsline {paragraph}{}{5}{section*.6}%
+\contentsline {subsection}{\numberline {2.5}Vulnerability Analysis}{5}{subsection.2.5}%
 \contentsline {paragraph}{}{5}{section*.7}%
 \contentsline {subsection}{\numberline {2.6}Dependency Manager}{5}{subsection.2.6}%
 \contentsline {subsubsection}{\numberline {2.6.1}Components of Dependency Manager}{6}{subsubsection.2.6.1}%

@@ -1,64 +1,80 @@
-This is BibTeX, Version 0.99d
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: thesis.aux
-Reallocating 'name_of_file' (item size: 1) to 6 items.
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: alpha.bst
-Reallocating 'name_of_file' (item size: 1) to 24 items.
 Database file #1: bibliography/references.bib
-Warning--entry type for "WinNT" isn't style-file defined
+Warning--entry type for "Gilad" isn't style-file defined
 --line 40 of file bibliography/references.bib
-Repeated entry---line 67 of file bibliography/references.bib
- : @online{WinNT
- :              ,
-I'm skipping whatever remains of this entry
+Warning--entry type for "WinNT" isn't style-file defined
+--line 67 of file bibliography/references.bib
 Repeated entry---line 75 of file bibliography/references.bib
  : @inproceedings{KaDaPeTu2014
  :                            ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 483 of file bibliography/references.bib
+Warning--entry type for "TheNVD" isn't style-file defined
+--line 109 of file bibliography/references.bib
+Warning--entry type for "DataWH" isn't style-file defined
+--line 143 of file bibliography/references.bib
+Warning--entry type for "Dm2018" isn't style-file defined
+--line 152 of file bibliography/references.bib
+Warning--entry type for "Ma2017" isn't style-file defined
+--line 160 of file bibliography/references.bib
+Repeated entry---line 169 of file bibliography/references.bib
+ : @online{DataWH
+ :               ,
+I'm skipping whatever remains of this entry
+"}" immediately follows an entry type---line 173 of file bibliography/references.bib
+ :  url = {https://medium.com/@sdboyer/so-you-want-to-write-a-package-manager-4ae9c17d9527
+ :                                                                                        },
+I'm skipping whatever remains of this entry
+Warning--entry type for "Rh2019" isn't style-file defined
+--line 205 of file bibliography/references.bib
+Warning--entry type for "Kaspersky" isn't style-file defined
+--line 255 of file bibliography/references.bib
+Warning--entry type for "Im2021" isn't style-file defined
+--line 298 of file bibliography/references.bib
+Repeated entry---line 306 of file bibliography/references.bib
+ : @online{Rh2019
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "Syamini" isn't style-file defined
+--line 366 of file bibliography/references.bib
+Warning--entry type for "Web2021" isn't style-file defined
+--line 421 of file bibliography/references.bib
+Warning--entry type for "CertDiv" isn't style-file defined
+--line 430 of file bibliography/references.bib
+You're missing a field name---line 476 of file bibliography/references.bib
  :  YEAR = {2018}, 
  :                 % I looked it up
 I'm skipping whatever remains of this entry
+Warning--entry type for "Snap" isn't style-file defined
+--line 498 of file bibliography/references.bib
+Warning--entry type for "Alex2021" isn't style-file defined
+--line 506 of file bibliography/references.bib
+Warning--entry type for "Radware" isn't style-file defined
+--line 540 of file bibliography/references.bib
+Warning--entry type for "Saed2021" isn't style-file defined
+--line 564 of file bibliography/references.bib
+Warning--entry type for "Cuelogic" isn't style-file defined
+--line 572 of file bibliography/references.bib
+Warning--entry type for "DamLeven" isn't style-file defined
+--line 593 of file bibliography/references.bib
+Warning--entry type for "JaroWinkler" isn't style-file defined
+--line 601 of file bibliography/references.bib
+Warning--entry type for "Ak2021" isn't style-file defined
+--line 609 of file bibliography/references.bib
+Warning--entry type for "Stat2021" isn't style-file defined
+--line 618 of file bibliography/references.bib
+Warning--entry type for "Wu2020" isn't style-file defined
+--line 627 of file bibliography/references.bib
+Warning--entry type for "NVDgraph" isn't style-file defined
+--line 636 of file bibliography/references.bib
+Warning--to sort, need author or key in nist
+Warning--to sort, need author or key in SecurityFocus
+Warning--to sort, need author or key in IbmXforce
+Warning--to sort, need author or key in cve
+Warning--to sort, need author or key in VulTest
+Warning--to sort, need author or key in BugTraq
+Warning--empty booktitle in RaLo2016
+Warning--empty booktitle in AsRaRaYu2006
 Warning--empty journal in KeJaSa2005
-You've used 7 entries,
-            2543 wiz_defined-function locations,
-            601 strings with 5450 characters,
-and the built_in function-call counts, 2580 in all, are:
-= -- 255
-> -- 124
-< -- 5
-+ -- 43
-- -- 41
-* -- 177
-:= -- 447
-add.period$ -- 21
-call.type$ -- 7
-change.case$ -- 42
-chr.to.int$ -- 6
-cite$ -- 8
-duplicate$ -- 104
-empty$ -- 174
-format.name$ -- 52
-if$ -- 515
-int.to.chr$ -- 2
-int.to.str$ -- 0
-missing$ -- 4
-newline$ -- 37
-num.names$ -- 23
-pop$ -- 42
-preamble$ -- 1
-purify$ -- 49
-quote$ -- 0
-skip$ -- 87
-stack$ -- 0
-substring$ -- 109
-swap$ -- 15
-text.length$ -- 5
-text.prefix$ -- 4
-top$ -- 0
-type$ -- 56
-warning$ -- 1
-while$ -- 22
-width$ -- 10
-write$ -- 92
-(There were 3 error messages)
+Warning--empty journal in Alex2004
+(There were 5 error messages)
