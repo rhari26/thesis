@@ -1,5 +1,9 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: alpha.bst
+Reallocating 'name_of_file' (item size: 1) to 24 items.
 Database file #1: bibliography/references.bib
 Warning--entry type for "Gilad" isn't style-file defined
 --line 40 of file bibliography/references.bib
@@ -67,6 +71,10 @@ Warning--entry type for "Wu2020" isn't style-file defined
 --line 627 of file bibliography/references.bib
 Warning--entry type for "NVDgraph" isn't style-file defined
 --line 636 of file bibliography/references.bib
+Warning--entry type for "And2021" isn't style-file defined
+--line 644 of file bibliography/references.bib
+Warning--entry type for "Mic2020" isn't style-file defined
+--line 653 of file bibliography/references.bib
 Warning--to sort, need author or key in nist
 Warning--to sort, need author or key in SecurityFocus
 Warning--to sort, need author or key in IbmXforce
@@ -77,4 +85,45 @@ Warning--empty booktitle in RaLo2016
 Warning--empty booktitle in AsRaRaYu2006
 Warning--empty journal in KeJaSa2005
 Warning--empty journal in Alex2004
+You've used 56 entries,
+            2543 wiz_defined-function locations,
+            844 strings with 10773 characters,
+and the built_in function-call counts, 19210 in all, are:
+= -- 1889
+> -- 728
+< -- 46
++ -- 242
+- -- 227
+* -- 1111
+:= -- 2929
+add.period$ -- 156
+call.type$ -- 56
+change.case$ -- 310
+chr.to.int$ -- 54
+cite$ -- 72
+duplicate$ -- 850
+empty$ -- 1612
+format.name$ -- 306
+if$ -- 4142
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 23
+newline$ -- 259
+num.names$ -- 156
+pop$ -- 502
+preamble$ -- 1
+purify$ -- 365
+quote$ -- 0
+skip$ -- 785
+stack$ -- 0
+substring$ -- 808
+swap$ -- 177
+text.length$ -- 46
+text.prefix$ -- 30
+top$ -- 0
+type$ -- 448
+warning$ -- 10
+while$ -- 152
+width$ -- 61
+write$ -- 654
 (There were 5 error messages)

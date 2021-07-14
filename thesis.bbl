@@ -61,6 +61,10 @@ Cve - faq.
 NATIONAL~VULNERABILITY DATABASE.
 \newblock Cvss severity distribution over time.
 
+\bibitem[Dem21]{And2021}
+Andrew Demchenko.
+\newblock How to deal with the most common challenges in web scraping, 2021.
+
 \bibitem[DWG04]{DiWhGo2004}
 G.~Dietrich, G.~B. White, and T.~Goles.
 \newblock Cyber security exercises: Testing an organization?s ability to
@@ -120,6 +124,10 @@ G.~Jabbour and D.~A. Menasce.
 \newblock In {\em 2008 4th International Conference on Autonomic and Autonomous
   Systems}, pages 188--197, Los Alamitos, CA, USA, mar 2008. IEEE Computer
   Society.
+
+\bibitem[Joh20]{Mic2020}
+Mic Johnson.
+\newblock Main challenges in web scraping, 2020.
 
 \bibitem[Kas17]{Kaspersky}
 Kaspersky.
