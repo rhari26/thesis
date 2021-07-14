@@ -30,12 +30,12 @@
 \contentsline {subsubsection}{\numberline {3.2.3}Data Scraping Methods}{18}{subsubsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.3}String Distance Metrics}{20}{subsection.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.1}Hamming Distance}{20}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Levenshtein distance}{20}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2}Levenshtein distance}{21}{subsubsection.3.3.2}%
 \contentsline {subsubsection}{\numberline {3.3.3}Damerau-Levenshtein distance}{21}{subsubsection.3.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.4}Jaro Distance}{22}{subsubsection.3.3.4}%
 \contentsline {section}{\numberline {4}Design \& Architecture}{23}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Scanner Architecture}{23}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}System Components}{23}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}Scanner Components}{23}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Design Challenge}{23}{subsection.4.3}%
 \contentsline {section}{\numberline {5}Implementation}{24}{section.5}%
 \contentsline {subsection}{\numberline {5.1}System Characteristics}{24}{subsection.5.1}%
