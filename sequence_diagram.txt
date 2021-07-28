@@ -1,0 +1,16 @@
+@startuml
+actor User as User
+User -> "Scanner Interface": Scan Projects
+User -> "Scanner Interface": Select Members
+User <- "Scanned Projects Interface": showAllProjects()
+User <- "Scanned Projects Interface": showProject()
+"Scanner Interface" -> "Component Analyzer": extractOssComponents()
+"Component Analyzer" -> "Component Evaluator": sendComponentInfo()
+Reporter -> User: downloadProjectReport()
+Database -> Reporter: getProjectData()
+"Component Evaluator" -> Database: createProject()
+"Scanned Projects Interface" <- Database: getAllProjects()
+
+User -> "Scanned Projects Interface": editProject()
+"Scanned Projects Interface" -> Database: updateProject()
+@enduml

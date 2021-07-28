@@ -10,3 +10,5 @@
 \contentsline {figure}{\numberline {10}{\ignorespaces Damerau-Levenshtein Distance formula \cite {DamLeven}.}}{22}{figure.10}%
 \contentsline {figure}{\numberline {11}{\ignorespaces Jaro similarity formula \cite {JaroWinkler}.}}{22}{figure.11}%
 \contentsline {figure}{\numberline {12}{\ignorespaces Jaro-Winkler similarity formula \cite {Stat2021}.}}{22}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces \acs {OSS} scanner architecture}}{23}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces \acs {OSS} scanner sequence diagram}}{24}{figure.14}%
