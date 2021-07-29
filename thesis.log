@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.7.12)  28 JUL 2021 17:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.7.12)  29 JUL 2021 16:41
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -481,8 +481,32 @@ e 13.
 LaTeX Warning: Hyper reference `acro:CERT/CC' on page VI undefined on input lin
 e 13.
 
+
+LaTeX Warning: Hyper reference `acro:JSON' on page VI undefined on input line 1
+4.
+
+
+LaTeX Warning: Hyper reference `acro:JSON' on page VI undefined on input line 1
+4.
+
+
+LaTeX Warning: Hyper reference `acro:API' on page VI undefined on input line 15
+.
+
+
+LaTeX Warning: Hyper reference `acro:API' on page VI undefined on input line 15
+.
+
+
+LaTeX Warning: Hyper reference `acro:XML' on page VI undefined on input line 16
+.
+
+
+LaTeX Warning: Hyper reference `acro:XML' on page VI undefined on input line 16
+.
+
 ) [6] (sections/chapter-1.tex) [1] [2] (sections/chapter-2.tex
-<includes/vulgraph.PNG, id=363, 1009.52156pt x 387.69844pt>
+<includes/vulgraph.PNG, id=366, 1009.52156pt x 387.69844pt>
 File: includes/vulgraph.PNG Graphic file (type png)
 <use includes/vulgraph.PNG>
 Package pdftex.def Info: includes/vulgraph.PNG  used on input line 11.
@@ -492,7 +516,7 @@ Package pdftex.def Info: includes/vulgraph.PNG  used on input line 11.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3] [4 <./includes/vulgraph.PNG>] [5]) [6] (sections/chapter-3.tex [7] [8]
-<includes/networkanalysis.png, id=447, 1292.83pt x 688.5725pt>
+<includes/networkanalysis.png, id=450, 1292.83pt x 688.5725pt>
 File: includes/networkanalysis.png Graphic file (type png)
 <use includes/networkanalysis.png>
 Package pdftex.def Info: includes/networkanalysis.png  used on input line 42.
@@ -503,31 +527,31 @@ Package pdftex.def Info: includes/networkanalysis.png  used on input line 42.
 Package acronym Warning: Acronym `i' is not defined on input line 69.
 
 [11]
-<includes/nvd.png, id=500, 1469.49pt x 840.13875pt>
+<includes/nvd.png, id=503, 1469.49pt x 840.13875pt>
 File: includes/nvd.png Graphic file (type png)
 <use includes/nvd.png>
 Package pdftex.def Info: includes/nvd.png  used on input line 74.
 (pdftex.def)             Requested size: 426.79134pt x 244.00577pt.
  [12 <./includes/nvd.png>]
-<includes/securityFocus.png, id=515, 902.37125pt x 604.2575pt>
+<includes/securityFocus.png, id=518, 902.37125pt x 604.2575pt>
 File: includes/securityFocus.png Graphic file (type png)
 <use includes/securityFocus.png>
 Package pdftex.def Info: includes/securityFocus.png  used on input line 85.
 (pdftex.def)             Requested size: 426.79134pt x 285.79901pt.
  [13 <./includes/securityFocus.png>]
-<includes/ibm.png, id=526, 1431.3475pt x 734.745pt>
+<includes/ibm.png, id=529, 1431.3475pt x 734.745pt>
 File: includes/ibm.png Graphic file (type png)
 <use includes/ibm.png>
 Package pdftex.def Info: includes/ibm.png  used on input line 94.
 (pdftex.def)             Requested size: 426.79134pt x 219.07983pt.
  [14 <./includes/ibm.png>]
-<includes/cert-cc.png, id=541, 513.92pt x 403.5075pt>
+<includes/cert-cc.png, id=544, 513.92pt x 403.5075pt>
 File: includes/cert-cc.png Graphic file (type png)
 <use includes/cert-cc.png>
 Package pdftex.def Info: includes/cert-cc.png  used on input line 103.
 (pdftex.def)             Requested size: 426.79134pt x 335.102pt.
  [15 <./includes/cert-cc.png>]
-<includes/webscraping.png, id=554, 513.92pt x 128.48pt>
+<includes/webscraping.png, id=557, 513.92pt x 128.48pt>
 File: includes/webscraping.png Graphic file (type png)
 <use includes/webscraping.png>
 Package pdftex.def Info: includes/webscraping.png  used on input line 127.
@@ -537,58 +561,48 @@ Package pdftex.def Info: includes/webscraping.png  used on input line 127.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [16] [17 <./includes/webscraping.png>] [18] [19] [20]
-<includes/hamming.png, id=599, 304.88907pt x 217.5628pt>
+<includes/hamming.png, id=602, 304.88907pt x 217.5628pt>
 File: includes/hamming.png Graphic file (type png)
 <use includes/hamming.png>
 Package pdftex.def Info: includes/hamming.png  used on input line 178.
 (pdftex.def)             Requested size: 284.52756pt x 203.04173pt.
-<includes/levdist.png, id=603, 963.6pt x 203.76125pt>
+<includes/levdist.png, id=606, 963.6pt x 203.76125pt>
 File: includes/levdist.png Graphic file (type png)
 <use includes/levdist.png>
 Package pdftex.def Info: includes/levdist.png  used on input line 188.
 (pdftex.def)             Requested size: 284.52756pt x 60.16501pt.
  [21 <./includes/hamming.png> <./includes/levdist.png>]
-<includes/dlevidist.png, id=611, 571.13374pt x 88.33pt>
+<includes/dlevidist.png, id=614, 571.13374pt x 88.33pt>
 File: includes/dlevidist.png Graphic file (type png)
 <use includes/dlevidist.png>
 Package pdftex.def Info: includes/dlevidist.png  used on input line 199.
 (pdftex.def)             Requested size: 284.52756pt x 44.00449pt.
-<includes/jaro.png, id=613, 352.31625pt x 63.23625pt>
+<includes/jaro.png, id=616, 352.31625pt x 63.23625pt>
 File: includes/jaro.png Graphic file (type png)
 <use includes/jaro.png>
 Package pdftex.def Info: includes/jaro.png  used on input line 209.
 (pdftex.def)             Requested size: 284.52756pt x 51.0686pt.
-<includes/jarowinkler.png, id=616, 368.37625pt x 17.06375pt>
+<includes/jarowinkler.png, id=619, 368.37625pt x 17.06375pt>
 File: includes/jarowinkler.png Graphic file (type png)
 <use includes/jarowinkler.png>
 Package pdftex.def Info: includes/jarowinkler.png  used on input line 218.
 (pdftex.def)             Requested size: 284.52756pt x 13.17972pt.
 ) [22 <./includes/dlevidist.png> <./includes/jaro.png> <./includes/jarowinkler.
 png>] (sections/chapter-4.tex
-<includes/architetcure.png, id=630, 504.88625pt x 403.5075pt>
+<includes/architetcure.png, id=636, 504.88625pt x 403.5075pt>
 File: includes/architetcure.png Graphic file (type png)
 <use includes/architetcure.png>
 Package pdftex.def Info: includes/architetcure.png  used on input line 9.
 (pdftex.def)             Requested size: 426.79134pt x 341.09894pt.
  [23 <./includes/architetcure.png>]
-<includes/sequence_diagram.png, id=643, 1046.91125pt x 541.02126pt>
+<includes/sequence_diagram.png, id=650, 1046.91125pt x 541.02126pt>
 File: includes/sequence_diagram.png Graphic file (type png)
 <use includes/sequence_diagram.png>
 Package pdftex.def Info: includes/sequence_diagram.png  used on input line 17.
 (pdftex.def)             Requested size: 426.79134pt x 220.55708pt.
-
-
-Package acronym Warning: Acronym `JSON' is not defined on input line 26.
-
-
-Package acronym Warning: Acronym `API' is not defined on input line 28.
-
-
-Package acronym Warning: Acronym `JSON' is not defined on input line 28.
-
-[24 <./includes/sequence_diagram.png (PNG copy)>]) [25] (sections/chapter-5.tex
-) [26] (sections/chapter-6.tex) [27] (sections/chapter-7.tex) [28]
-(sections/chapter-8.tex) [29] (thesis.bbl
+ [24 <./includes/sequence_diagram.png (PNG copy)>]) [25]
+(sections/chapter-5.tex) [26] [27] (sections/chapter-6.tex) [28]
+(sections/chapter-7.tex) [29] (sections/chapter-8.tex) [30] (thesis.bbl
 LaTeX Font Info:    Faking \texteuro for font family aer
 (Font)              in TS1 encoding on input line 28.
 LaTeX Font Info:    Trying to load font information for T1+aett on input line 4
@@ -602,13 +616,13 @@ Underfull \hbox (badness 1769) in paragraph at lines 56--59
  about / faqs . html$[]\T1/aer/m/n/12 .  Ac-cessed:
  []
 
-[30] [31]
+[31] [32]
 Underfull \hbox (badness 2698) in paragraph at lines 255--258
 []\T1/aer/m/n/12 The im-por-tance of vul-ner-a-bil-ity test-ing.  []$\T1/aett/m
 /n/12 https : / / ancgroup . com /
  []
 
-[32]) [33] [34] (thesis.aux)
+[33]) [34] [35] (thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -616,10 +630,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 53CFDB9AE535EC134C2EE794F66CFDC3;6044.
  ) 
 Here is how much of TeX's memory you used:
- 10768 strings out of 479334
- 159872 string characters out of 2855659
- 465737 words of memory out of 3000000
- 27796 multiletter control sequences out of 15000+200000
+ 10779 strings out of 479334
+ 159973 string characters out of 2855659
+ 465875 words of memory out of 3000000
+ 27803 multiletter control sequences out of 15000+200000
  445403 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,12n,77p,2121b,484s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -634,9 +648,9 @@ Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmti12.pfb><C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (42 pages, 1189023 bytes).
+Output written on thesis.pdf (43 pages, 1195886 bytes).
 PDF statistics:
- 791 PDF objects out of 1000 (max. 8388607)
- 170 named destinations out of 1000 (max. 500000)
+ 811 PDF objects out of 1000 (max. 8388607)
+ 174 named destinations out of 1000 (max. 500000)
  393 words of extra memory for PDF output out of 10000 (max. 10000000)
 

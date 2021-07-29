@@ -4,7 +4,7 @@
 This chapter will explain about the scanner architecture, things that have considered while designing the component and some of the useful techniques I have analyzed to make an efficient scanner to extract \acs{OSS} component.
 
 \subsection{Scanner Architecture}
- The first task of developing this scanner is creating an automated \acs{OSS} component extractor because manual extraction of \acs{OSS} component is a tedious and redundant task, finding an automated system will reduce the time consumption and make it more cost effective. The manual \acs{OSS} extraction is suitable for small projects with less \acs{OSS} components consumption which is a very rare case. The \acs{OSS} scanner is built as a web application in this project by considering some useful advantages like accessibility across the devices, less maintenance and increased flexibility and scalability. Like traditional web-application the OSS scanner has front-end and back-end applications. I have decided to break down the OSS scanner into three major parts which are OSS component Analyzer, Evaluator and Reporter. 
+ The first task of developing this scanner is creating an automated \acs{OSS} component extractor because manual extraction of \acs{OSS} component is a tedious and redundant task, finding an automated system will reduce the time consumption and make it more cost effective. The manual \acs{OSS} extraction is suitable for small projects with less \acs{OSS} components consumption which is a very rare case. The \acs{OSS} scanner is built as a web application in this project by considering some useful advantages like accessibility across the devices, less maintenance and increased flexibility and scalability. Like traditional web-application the \acs{OSS} scanner has front-end and back-end applications. I have decided to break down the \acs{OSS} scanner into three major parts which are \acs{OSS} component Analyzer, Evaluator and Reporter. 
  \begin{figure}[h!]
  	\includegraphics[width=15cm]{includes/architetcure.png}
  	\centering
@@ -12,7 +12,7 @@ This chapter will explain about the scanner architecture, things that have consi
  	\label{fig:architecture}
  \end{figure}
 \newpage
-The figure ~\ref{fig:architecture} shows where the three major parts have been placed in the web -application. The \acs{OSS} component analyzer will be developed in the front-end because as per the research question the \acs{OSS} components should be scanned in the front-end(web browser). Once the \acs{OSS} components are extracted from the project, the meta information(name and version) will be sent to the OSS component evaluator for finding the vulnerabilities. The OSS component evaluator and reporter are developed in the back-end. To make a clear understating, the figure ~\ref{fig:sequence} will show clear interaction between the components.
+The figure ~\ref{fig:architecture} shows where the three major parts have been placed in the web -application. The \acs{OSS} component analyzer will be developed in the front-end because as per the research question the \acs{OSS} components should be scanned in the front-end(web browser). Once the \acs{OSS} components are extracted from the project, the meta information(name and version) will be sent to the \acs{OSS} component evaluator for finding the vulnerabilities. The OSS component evaluator and reporter are developed in the back-end. To make a clear understating, the figure ~\ref{fig:sequence} will show clear interaction between the components.
 \begin{figure}[h!]
 	\includegraphics[width=15cm]{includes/sequence_diagram.png}
 	\centering
@@ -31,4 +31,15 @@ As shown in figure ~\ref{fig:architecture} there are three main components invol
 	
 \end{description}
 \subsection{Design Challenge}
+Almost every software product development project has a unique set of problems. These issues can be a roadblock to development throughout system design and, more importantly, during implementation. There were several difficulties faced throughout the implementation of this thesis. The major problems that need to be addressed and a solution formed are listed below.
+\begin{description}
+	\item [$\bullet$ Application framework:] Because I had never worked with Angular framework before, the first hurdle I had while starting implementation was familiarizing myself with it. I got acquainted to the Angular environment with the aid of several online tutorials and hands-on programming.
+	
+	\item [$\bullet$ File structure:] The next challenge for me was trying to create a generic function that can extract the \acs{OSS} component name version from respected config files of the software project. This challenge was pretty time consuming because each software project can be built by using a different application framework and also each application framework has its own dependency manager. For instance, the Ruby on Rails application framework uses RubyGems as a dependency manager and it generates a file called Gemfile where all the \acs{OSS} components used in the projects are registered. Likewise Django has requirements.txt file, Dotnet has packages.config file, etc.
+	
+	
+	\item [$\bullet$ Finding the right regex:] Another challenge was finding the right regex for each config file. The harder part was extracting the \acs{OSS} component names and version from config files like Gemfile and requirements.txt but other config files are comparatively easy to parse and extract the information because most of the files are generated as either \acs{JSON} or \acs{XML} files.
+	
+	\item [$\bullet$ Verification:] Another issue was determining whether what I built corresponded to what was actually happening within the software. To do so, I ran my code on a set of test inputs whose results were already known and checked if my program produced the same results.
+\end{description}
 %
