@@ -1,16 +1,22 @@
 @startuml
 actor User as User
-User -> "Scanner Interface": Scan Projects
-User -> "Scanner Interface": Select Members
-User <- "Scanned Projects Interface": showAllProjects()
-User <- "Scanned Projects Interface": showProject()
-"Scanner Interface" -> "Component Analyzer": extractOssComponents()
-"Component Analyzer" -> "Component Evaluator": sendComponentInfo()
-Reporter -> User: downloadProjectReport()
-Database -> Reporter: getProjectData()
-"Component Evaluator" -> Database: createProject()
-"Scanned Projects Interface" <- Database: getAllProjects()
+User -> "Scanner Interface": SubmitProjectData()
+"Scanner Interface" -> "Component Analyzer": ScanOssComponents()
+"Component Analyzer" -> "Component Evaluator": evaluateOssComponent()
+"Component Evaluator" -> Database: SaveOssComponentInfo()
 
-User -> "Scanned Projects Interface": editProject()
-"Scanned Projects Interface" -> Database: updateProject()
+User -> "Scanned Projects Interface": showAllProjects()
+"Scanned Projects Interface" -> Database: getAllProjects()
+Database -> "Scanned Projects Interface": returnAllProjects()
+"Scanned Projects Interface" -> User: returnAllProjectResults()
+
+User -> "Scanned Projects Interface": showProject()
+"Scanned Projects Interface" -> Database: getProject()
+Database -> "Scanned Projects Interface": returnProject()
+"Scanned Projects Interface" -> User: returnProjectResult()
+
+User -> Reporter: downloadPdfReport()
+Reporter -> Database: getReportdata()
+Database -> Reporter: returnReportData()
+Reporter -> User: returnPdfReport()
 @enduml
