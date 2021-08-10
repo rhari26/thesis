@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.7.12)  29 JUL 2021 16:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.7.12)  10 AUG 2021 15:30
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -595,14 +595,14 @@ File: includes/architetcure.png Graphic file (type png)
 Package pdftex.def Info: includes/architetcure.png  used on input line 9.
 (pdftex.def)             Requested size: 426.79134pt x 341.09894pt.
  [23 <./includes/architetcure.png>]
-<includes/sequence_diagram.png, id=650, 1046.91125pt x 541.02126pt>
+<includes/sequence_diagram.png, id=650, 1220.56pt x 933.4875pt>
 File: includes/sequence_diagram.png Graphic file (type png)
 <use includes/sequence_diagram.png>
 Package pdftex.def Info: includes/sequence_diagram.png  used on input line 17.
-(pdftex.def)             Requested size: 426.79134pt x 220.55708pt.
- [24 <./includes/sequence_diagram.png (PNG copy)>]) [25]
-(sections/chapter-5.tex) [26] [27] (sections/chapter-6.tex) [28]
-(sections/chapter-7.tex) [29] (sections/chapter-8.tex) [30] (thesis.bbl
+(pdftex.def)             Requested size: 426.79134pt x 326.41216pt.
+ [24 <./includes/sequence_diagram.png>] [25]) [26]
+(sections/chapter-5.tex) [27] [28] (sections/chapter-6.tex) [29]
+(sections/chapter-7.tex) [30] (sections/chapter-8.tex) [31] (thesis.bbl
 LaTeX Font Info:    Faking \texteuro for font family aer
 (Font)              in TS1 encoding on input line 28.
 LaTeX Font Info:    Trying to load font information for T1+aett on input line 4
@@ -616,13 +616,13 @@ Underfull \hbox (badness 1769) in paragraph at lines 56--59
  about / faqs . html$[]\T1/aer/m/n/12 .  Ac-cessed:
  []
 
-[31] [32]
+[32] [33]
 Underfull \hbox (badness 2698) in paragraph at lines 255--258
 []\T1/aer/m/n/12 The im-por-tance of vul-ner-a-bil-ity test-ing.  []$\T1/aett/m
 /n/12 https : / / ancgroup . com /
  []
 
-[33]) [34] [35] (thesis.aux)
+[34]) [35] [36] (thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -630,8 +630,8 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 53CFDB9AE535EC134C2EE794F66CFDC3;6044.
  ) 
 Here is how much of TeX's memory you used:
- 10779 strings out of 479334
- 159973 string characters out of 2855659
+ 10780 strings out of 479334
+ 159980 string characters out of 2855659
  465875 words of memory out of 3000000
  27803 multiletter control sequences out of 15000+200000
  445403 words of font info for 105 fonts, out of 3000000 for 9000
@@ -648,9 +648,9 @@ Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmti12.pfb><C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (43 pages, 1195886 bytes).
+Output written on thesis.pdf (44 pages, 1199949 bytes).
 PDF statistics:
- 811 PDF objects out of 1000 (max. 8388607)
- 174 named destinations out of 1000 (max. 500000)
+ 817 PDF objects out of 1000 (max. 8388607)
+ 175 named destinations out of 1000 (max. 500000)
  393 words of extra memory for PDF output out of 10000 (max. 10000000)
 
