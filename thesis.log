@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.7.12)  10 AUG 2021 15:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.7.12)  11 AUG 2021 16:20
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -264,6 +264,14 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip58
 )
+(C:\Users\Z004303F\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.st
+y
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip59
+\multirow@cntb=\count274
+\multirow@dima=\skip60
+\bigstrutjot=\dimen149
+)
 (C:\Users\Z004303F\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
 y
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
@@ -280,8 +288,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen149
-\Gin@req@width=\dimen150
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
 ))
 LaTeX Font Info:    Trying to load font information for T1+aer on input line 4.
 
@@ -292,7 +300,7 @@ File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 (C:\Users\Z004303F\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
 pdftex.def
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count274
+\l__color_backend_stack_int=\count275
 \l__pdf_internal_box=\box50
 ) (thesis.aux)
 \openout1 = `thesis.aux'.
@@ -315,21 +323,21 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
-\c@lstlisting=\count275
+\c@lstlisting=\count276
 
 (C:\Users\Z004303F\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
 .mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
-\scratchdimen=\dimen151
+\scratchcounter=\count277
+\scratchdimen=\dimen152
 \scratchbox=\box51
-\nofMPsegments=\count277
-\nofMParguments=\count278
+\nofMPsegments=\count278
+\nofMParguments=\count279
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count279
-\MPscratchDim=\dimen152
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
+\MPscratchCnt=\count280
+\MPscratchDim=\dimen153
+\MPnumerator=\count281
+\makeMPintoPDFobject=\count282
 \everyMPtoPDFconversion=\toks22
 )
 (C:\Users\Z004303F\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
@@ -359,7 +367,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 titlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count282
+\c@section@level=\count283
 )
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
@@ -601,7 +609,7 @@ File: includes/sequence_diagram.png Graphic file (type png)
 Package pdftex.def Info: includes/sequence_diagram.png  used on input line 17.
 (pdftex.def)             Requested size: 426.79134pt x 326.41216pt.
  [24 <./includes/sequence_diagram.png>] [25]) [26]
-(sections/chapter-5.tex) [27] [28] (sections/chapter-6.tex) [29]
+(sections/chapter-5.tex [27]) [28] (sections/chapter-6.tex) [29]
 (sections/chapter-7.tex) [30] (sections/chapter-8.tex) [31] (thesis.bbl
 LaTeX Font Info:    Faking \texteuro for font family aer
 (Font)              in TS1 encoding on input line 28.
@@ -630,10 +638,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 53CFDB9AE535EC134C2EE794F66CFDC3;6044.
  ) 
 Here is how much of TeX's memory you used:
- 10780 strings out of 479334
- 159980 string characters out of 2855659
- 465875 words of memory out of 3000000
- 27803 multiletter control sequences out of 15000+200000
+ 10839 strings out of 479334
+ 160941 string characters out of 2855659
+ 465425 words of memory out of 3000000
+ 27858 multiletter control sequences out of 15000+200000
  445403 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,12n,77p,2121b,484s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -648,7 +656,7 @@ Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmti12.pfb><C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (44 pages, 1199949 bytes).
+Output written on thesis.pdf (44 pages, 1201548 bytes).
 PDF statistics:
  817 PDF objects out of 1000 (max. 8388607)
  175 named destinations out of 1000 (max. 500000)

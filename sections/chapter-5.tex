@@ -30,7 +30,24 @@ The software support tools used for backend implementation are listed as follows
 
 All the infrastructure and software that I used are provided by evosoft GmbH.
 \subsection{OSS Component Analyzer}
-
+The OSS component analyzer is a starting point in the process of scanning the oss components from a project. This is a front-end module and it is implemented in Angular framework using trypescript language. The GUI interface of this module requires four inputs from the user which is project name, description, members and project source directory. It has two important task before it proceeds to the evaluation process. The first task, the module should find the required configuration file in the project. This configuration file identification was done with the help of dependency manager. Each application framework has its own dependency manager and it generates unique configuration file for application framework.
+\begin{center}
+ \begin{tabular}{ |c|c|c|c| } 
+ 	\hline
+ 	Application Framework & Dependency Manager & Config file \\
+ 	\hline
+ 	.NET(Console Application) & Nuget & .csproj file \\ 
+ 	Angular Framework & npm & package.json \\ 
+ 	Microsoft TFS & Nuget & app.config \\ 
+ 	Django & npm & requirremen.txt \\ 
+ 	Ruby on Rails & Rubygem & gemfile \\ 
+ 	Laravel & composer & composer.json \\ 
+ 	Gradle projects & gradle & build.gradle \\ 
+ 	Maven projects & POM & pom.xml \\ 
+ 	.NET  & Nuget &packages.config \\ 
+ 	\hline
+ \end{tabular}
+\end{center} 
 \subsection{Component Evaluator}
 
 \subsection{Reporter}

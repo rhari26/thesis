@@ -1,0 +1,28 @@
+@startuml
+start
+:Drop project soruce folder;
+if (config file exists?) then (yes)
+ if(.csproj file?) then (yes)
+  :GetOssFromCsprojConfigFile;
+ elseif(package.json file?) then (yes)
+  :GetOssFromJavascriptFile;
+ elseif(app.config file?) then (yes)
+  :GetOssFromTfsConfigFile;
+ elseif(requirements.txt file?) then (yes)
+  :GetPythonComponents;
+ elseif(Gemfile file?) then (yes)
+  :GetOssFromGemFile;
+ elseif(composer.lock file?) then (yes)
+  :GetOssFromComposerFile;
+ elseif(build.gradle file?) then (yes)
+  :GetOssFromJavaGradleFile;
+ elseif(pom.xml file?) then (yes)
+  :GetOssFromJavaPomFile;
+ elseif(packages.config file?) then (yes)
+  :GetOssFromDotNet;
+ else (nothing)
+  :File not found
+ endif
+else (nothing)
+ stop
+@enduml
