@@ -21,8 +21,11 @@ if (config file exists?) then (yes)
  elseif(packages.config file?) then (yes)
   :GetOssFromDotNet;
  else (nothing)
-  :File not found
+  :File not found;
+  stop
  endif
+ :Generate JSON object;
+ stop
 else (nothing)
  stop
 @enduml

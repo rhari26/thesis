@@ -30,24 +30,36 @@ The software support tools used for backend implementation are listed as follows
 
 All the infrastructure and software that I used are provided by evosoft GmbH.
 \subsection{OSS Component Analyzer}
-The OSS component analyzer is a starting point in the process of scanning the oss components from a project. This is a front-end module and it is implemented in Angular framework using trypescript language. The GUI interface of this module requires four inputs from the user which is project name, description, members and project source directory. It has two important task before it proceeds to the evaluation process. The first task, the module should find the required configuration file in the project. This configuration file identification was done with the help of dependency manager. Each application framework has its own dependency manager and it generates unique configuration file for application framework.
+The OSS component analyzer is a starting point in the process of scanning the OSS components from a project. This is a front-end module and it is implemented in the Angular framework using typescript language. The GUI interface of this module requires four inputs from the user which is project name, description, members and project source directory. It has two important tasks before it proceeds to the evaluation process. The first task, the module should find the required configuration file in the project. This configuration file identification was done with the help of a dependency manager. Each application framework has its own dependency manager and it generates a unique configuration file for the application framework. The below table shows all the config files of each application framework. The OSS component names and versions will be listed in the config files. 
+\begin{table}[h!]
 \begin{center}
  \begin{tabular}{ |c|c|c|c| } 
  	\hline
- 	Application Framework & Dependency Manager & Config file \\
+ 	Application Framework & Dependency Manager & Config file & File Type \\
  	\hline
- 	.NET(Console Application) & Nuget & .csproj file \\ 
- 	Angular Framework & npm & package.json \\ 
- 	Microsoft TFS & Nuget & app.config \\ 
- 	Django & npm & requirremen.txt \\ 
- 	Ruby on Rails & Rubygem & gemfile \\ 
- 	Laravel & composer & composer.json \\ 
- 	Gradle projects & gradle & build.gradle \\ 
- 	Maven projects & POM & pom.xml \\ 
- 	.NET  & Nuget &packages.config \\ 
+ 	.NET(Console Application) & Nuget & .csproj file & XML \\ 
+ 	Angular Framework & npm & package.json & JSON \\ 
+ 	Microsoft TFS & Nuget & app.config & XML \\ 
+ 	Django & npm & requirremen.txt & Text\\ 
+ 	Ruby on Rails & Rubygem & gemfile & File \\ 
+ 	Laravel & composer & composer.json & JSON \\ 
+ 	Gradle projects & gradle & build.gradle & GRADLE \\ 
+ 	Maven projects & POM & pom.xml & XML \\ 
+ 	.NET & Nuget & packages.config & XML \\ 
  	\hline
  \end{tabular}
+\caption{Configuration file of each application framework.}\label{tab:configFiles}
 \end{center} 
+\end{table}
+
+Once the respective config is identified from the project, the targeted data should be scrapped from config files. To achieve this, the automated scrapping methods are used based on the config file type. For instance the user is scanning Maven project, then according to the table the config file is a XML file so therefore to scrap the targeted data DOM parsing method is used. Likewise for JSON file json parsing methods can be used, text pattern matching methods can be used for text file, Gemfile, FIle and GRADLE files.
+\newpage
+ \begin{figure}[h!]
+	\includegraphics[width=15cm]{includes/OSS_Analyzer_Activity_Diagram.png}
+	\centering
+	\caption{\acs{OSS} scanner architecture}
+	\label{fig:Analyzer_Activity_Diagram}
+\end{figure}
 \subsection{Component Evaluator}
 
 \subsection{Reporter}
