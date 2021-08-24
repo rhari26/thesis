@@ -52,15 +52,21 @@ The OSS component analyzer is a starting point in the process of scanning the OS
 \end{center} 
 \end{table}
 
-Once the respective config is identified from the project, the targeted data should be scrapped from config files. To achieve this, the automated scrapping methods are used based on the config file type. For instance the user is scanning Maven project, then according to the table the config file is a XML file so therefore to scrap the targeted data DOM parsing method is used. Likewise for JSON file json parsing methods can be used, text pattern matching methods can be used for text file, Gemfile, FIle and GRADLE files.
+Once the respective config is identified from the project, the targeted data should be scrapped from config files. To achieve this, the automated scrapping methods are used based on the config file type. For instance the user is scanning Maven project, then according to the table the config file is a XML file so therefore to scrap the targeted data DOM parsing method is used. Likewise for JSON file json parsing methods can be used, text pattern matching methods can be used for text file, Gemfile, FIle and GRADLE files. After scrapping the targeted data, the next task is to generate a json object with the project general information and scrapped OSS information and will be ready to send it to the OSS evaluation process. 
 \newpage
  \begin{figure}[h!]
 	\includegraphics[width=15cm]{includes/OSS_Analyzer_Activity_Diagram.png}
 	\centering
-	\caption{\acs{OSS} scanner architecture}
+	\caption{\acs{OSS} Component Analyzer Activity Diagram}
 	\label{fig:Analyzer_Activity_Diagram}
 \end{figure}
 \subsection{Component Evaluator}
-
+The OSS component evaluator is the final process of finding the vulnerabilities with the help of a vulnerability database. Once the server side application receives the json objects from the client application, the application will start searching the received components in the NVD database. First component names and versions will be searched under the CPE dictionary to verify the product has been registered in the CPE. If the component is found in the CPE dictionary, the service returns all the results of the component name. To verify the component name and the version is not a regular process because the CPE name has its own naming specification. The figure ~\ref{fig:cpe_name} is an example of the cpe naming specification.
+ \begin{figure}[h!]
+	\includegraphics[width=15cm]{includes/cpe_name.png}
+	\centering
+	\caption{CPE name specification}
+	\label{fig:cpe_name}
+\end{figure}
 \subsection{Reporter}
 %

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.7.12)  13 AUG 2021 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.7.12)  24 AUG 2021 13:06
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -514,7 +514,7 @@ LaTeX Warning: Hyper reference `acro:XML' on page VI undefined on input line 16
 .
 
 ) [6] (sections/chapter-1.tex) [1] [2] (sections/chapter-2.tex
-<includes/vulgraph.PNG, id=371, 1009.52156pt x 387.69844pt>
+<includes/vulgraph.PNG, id=373, 1009.52156pt x 387.69844pt>
 File: includes/vulgraph.PNG Graphic file (type png)
 <use includes/vulgraph.PNG>
 Package pdftex.def Info: includes/vulgraph.PNG  used on input line 11.
@@ -524,7 +524,7 @@ Package pdftex.def Info: includes/vulgraph.PNG  used on input line 11.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3] [4 <./includes/vulgraph.PNG>] [5]) [6] (sections/chapter-3.tex [7] [8]
-<includes/networkanalysis.png, id=455, 1292.83pt x 688.5725pt>
+<includes/networkanalysis.png, id=457, 1292.83pt x 688.5725pt>
 File: includes/networkanalysis.png Graphic file (type png)
 <use includes/networkanalysis.png>
 Package pdftex.def Info: includes/networkanalysis.png  used on input line 42.
@@ -535,31 +535,31 @@ Package pdftex.def Info: includes/networkanalysis.png  used on input line 42.
 Package acronym Warning: Acronym `i' is not defined on input line 69.
 
 [11]
-<includes/nvd.png, id=508, 1469.49pt x 840.13875pt>
+<includes/nvd.png, id=510, 1469.49pt x 840.13875pt>
 File: includes/nvd.png Graphic file (type png)
 <use includes/nvd.png>
 Package pdftex.def Info: includes/nvd.png  used on input line 74.
 (pdftex.def)             Requested size: 426.79134pt x 244.00577pt.
  [12 <./includes/nvd.png>]
-<includes/securityFocus.png, id=523, 902.37125pt x 604.2575pt>
+<includes/securityFocus.png, id=525, 902.37125pt x 604.2575pt>
 File: includes/securityFocus.png Graphic file (type png)
 <use includes/securityFocus.png>
 Package pdftex.def Info: includes/securityFocus.png  used on input line 85.
 (pdftex.def)             Requested size: 426.79134pt x 285.79901pt.
  [13 <./includes/securityFocus.png>]
-<includes/ibm.png, id=534, 1431.3475pt x 734.745pt>
+<includes/ibm.png, id=536, 1431.3475pt x 734.745pt>
 File: includes/ibm.png Graphic file (type png)
 <use includes/ibm.png>
 Package pdftex.def Info: includes/ibm.png  used on input line 94.
 (pdftex.def)             Requested size: 426.79134pt x 219.07983pt.
  [14 <./includes/ibm.png>]
-<includes/cert-cc.png, id=549, 513.92pt x 403.5075pt>
+<includes/cert-cc.png, id=551, 513.92pt x 403.5075pt>
 File: includes/cert-cc.png Graphic file (type png)
 <use includes/cert-cc.png>
 Package pdftex.def Info: includes/cert-cc.png  used on input line 103.
 (pdftex.def)             Requested size: 426.79134pt x 335.102pt.
  [15 <./includes/cert-cc.png>]
-<includes/webscraping.png, id=562, 513.92pt x 128.48pt>
+<includes/webscraping.png, id=564, 513.92pt x 128.48pt>
 File: includes/webscraping.png Graphic file (type png)
 <use includes/webscraping.png>
 Package pdftex.def Info: includes/webscraping.png  used on input line 127.
@@ -569,57 +569,62 @@ Package pdftex.def Info: includes/webscraping.png  used on input line 127.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [16] [17 <./includes/webscraping.png>] [18] [19] [20]
-<includes/hamming.png, id=607, 304.88907pt x 217.5628pt>
+<includes/hamming.png, id=609, 304.88907pt x 217.5628pt>
 File: includes/hamming.png Graphic file (type png)
 <use includes/hamming.png>
 Package pdftex.def Info: includes/hamming.png  used on input line 178.
 (pdftex.def)             Requested size: 284.52756pt x 203.04173pt.
-<includes/levdist.png, id=611, 963.6pt x 203.76125pt>
+<includes/levdist.png, id=613, 963.6pt x 203.76125pt>
 File: includes/levdist.png Graphic file (type png)
 <use includes/levdist.png>
 Package pdftex.def Info: includes/levdist.png  used on input line 188.
 (pdftex.def)             Requested size: 284.52756pt x 60.16501pt.
  [21 <./includes/hamming.png> <./includes/levdist.png>]
-<includes/dlevidist.png, id=619, 571.13374pt x 88.33pt>
+<includes/dlevidist.png, id=621, 571.13374pt x 88.33pt>
 File: includes/dlevidist.png Graphic file (type png)
 <use includes/dlevidist.png>
 Package pdftex.def Info: includes/dlevidist.png  used on input line 199.
 (pdftex.def)             Requested size: 284.52756pt x 44.00449pt.
-<includes/jaro.png, id=621, 352.31625pt x 63.23625pt>
+<includes/jaro.png, id=623, 352.31625pt x 63.23625pt>
 File: includes/jaro.png Graphic file (type png)
 <use includes/jaro.png>
 Package pdftex.def Info: includes/jaro.png  used on input line 209.
 (pdftex.def)             Requested size: 284.52756pt x 51.0686pt.
-<includes/jarowinkler.png, id=624, 368.37625pt x 17.06375pt>
+<includes/jarowinkler.png, id=626, 368.37625pt x 17.06375pt>
 File: includes/jarowinkler.png Graphic file (type png)
 <use includes/jarowinkler.png>
 Package pdftex.def Info: includes/jarowinkler.png  used on input line 218.
 (pdftex.def)             Requested size: 284.52756pt x 13.17972pt.
 ) [22 <./includes/dlevidist.png> <./includes/jaro.png> <./includes/jarowinkler.
 png>] (sections/chapter-4.tex
-<includes/architetcure.png, id=641, 504.88625pt x 403.5075pt>
+<includes/architetcure.png, id=643, 504.88625pt x 403.5075pt>
 File: includes/architetcure.png Graphic file (type png)
 <use includes/architetcure.png>
 Package pdftex.def Info: includes/architetcure.png  used on input line 9.
 (pdftex.def)             Requested size: 426.79134pt x 341.09894pt.
  [23 <./includes/architetcure.png>]
-<includes/sequence_diagram.png, id=655, 1220.56pt x 933.4875pt>
+<includes/sequence_diagram.png, id=657, 1220.56pt x 933.4875pt>
 File: includes/sequence_diagram.png Graphic file (type png)
 <use includes/sequence_diagram.png>
 Package pdftex.def Info: includes/sequence_diagram.png  used on input line 17.
 (pdftex.def)             Requested size: 426.79134pt x 326.41216pt.
  [24 <./includes/sequence_diagram.png>] [25]) [26]
 (sections/chapter-5.tex [27] [28]
-<includes/OSS_Analyzer_Activity_Diagram.png, id=705, 1757.81718pt x 858.20625pt
+<includes/OSS_Analyzer_Activity_Diagram.png, id=707, 1757.81718pt x 858.20625pt
 >
 File: includes/OSS_Analyzer_Activity_Diagram.png Graphic file (type png)
 <use includes/OSS_Analyzer_Activity_Diagram.png>
 Package pdftex.def Info: includes/OSS_Analyzer_Activity_Diagram.png  used on in
 put line 58.
 (pdftex.def)             Requested size: 426.79134pt x 208.35703pt.
-) [29 <./includes/OSS_Analyzer_Activity_Diagram.png>] (sections/chapter-6.tex) 
-[30] (sections/chapter-7.tex) [31]
-(sections/chapter-8.tex) [32] (thesis.bbl
+<includes/cpe_name.png, id=710, 694.84593pt x 176.91093pt>
+File: includes/cpe_name.png Graphic file (type png)
+<use includes/cpe_name.png>
+Package pdftex.def Info: includes/cpe_name.png  used on input line 66.
+(pdftex.def)             Requested size: 426.79134pt x 108.66055pt.
+) [29 <./includes/OSS_Analyzer_Activity_Diagram.png> <./includes/cpe_name.png>]
+ (sections/chapter-6.tex) [30]
+(sections/chapter-7.tex) [31] (sections/chapter-8.tex) [32] (thesis.bbl
 LaTeX Font Info:    Faking \texteuro for font family aer
 (Font)              in TS1 encoding on input line 28.
 LaTeX Font Info:    Trying to load font information for T1+aett on input line 4
@@ -647,10 +652,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 53CFDB9AE535EC134C2EE794F66CFDC3;6044.
  ) 
 Here is how much of TeX's memory you used:
- 10850 strings out of 479334
- 161274 string characters out of 2855659
- 465547 words of memory out of 3000000
- 27865 multiletter control sequences out of 15000+200000
+ 10858 strings out of 479334
+ 161433 string characters out of 2855659
+ 466609 words of memory out of 3000000
+ 27871 multiletter control sequences out of 15000+200000
  445403 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,12n,77p,2121b,484s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -665,9 +670,9 @@ Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmti12.pfb><C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (45 pages, 1533431 bytes).
+Output written on thesis.pdf (45 pages, 1544916 bytes).
 PDF statistics:
- 828 PDF objects out of 1000 (max. 8388607)
- 178 named destinations out of 1000 (max. 500000)
- 398 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 832 PDF objects out of 1000 (max. 8388607)
+ 179 named destinations out of 1000 (max. 500000)
+ 403 words of extra memory for PDF output out of 10000 (max. 10000000)
 
