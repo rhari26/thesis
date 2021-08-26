@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.7.12)  24 AUG 2021 13:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.7.12)  26 AUG 2021 16:32
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -623,8 +623,8 @@ File: includes/cpe_name.png Graphic file (type png)
 Package pdftex.def Info: includes/cpe_name.png  used on input line 66.
 (pdftex.def)             Requested size: 426.79134pt x 108.66055pt.
 ) [29 <./includes/OSS_Analyzer_Activity_Diagram.png> <./includes/cpe_name.png>]
- (sections/chapter-6.tex) [30]
-(sections/chapter-7.tex) [31] (sections/chapter-8.tex) [32] (thesis.bbl
+ [30] (sections/chapter-6.tex) [31]
+(sections/chapter-7.tex) [32] (sections/chapter-8.tex) [33] (thesis.bbl
 LaTeX Font Info:    Faking \texteuro for font family aer
 (Font)              in TS1 encoding on input line 28.
 LaTeX Font Info:    Trying to load font information for T1+aett on input line 4
@@ -638,13 +638,13 @@ Underfull \hbox (badness 1769) in paragraph at lines 56--59
  about / faqs . html$[]\T1/aer/m/n/12 .  Ac-cessed:
  []
 
-[33] [34]
+[34] [35]
 Underfull \hbox (badness 2698) in paragraph at lines 255--258
 []\T1/aer/m/n/12 The im-por-tance of vul-ner-a-bil-ity test-ing.  []$\T1/aett/m
 /n/12 https : / / ancgroup . com /
  []
 
-[35]) [36] [37] (thesis.aux)
+[36]) [37] [38] (thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -652,8 +652,8 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 53CFDB9AE535EC134C2EE794F66CFDC3;6044.
  ) 
 Here is how much of TeX's memory you used:
- 10858 strings out of 479334
- 161433 string characters out of 2855659
+ 10859 strings out of 479334
+ 161440 string characters out of 2855659
  466609 words of memory out of 3000000
  27871 multiletter control sequences out of 15000+200000
  445403 words of font info for 105 fonts, out of 3000000 for 9000
@@ -670,9 +670,9 @@ Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmti12.pfb><C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (45 pages, 1544916 bytes).
+Output written on thesis.pdf (46 pages, 1546368 bytes).
 PDF statistics:
- 832 PDF objects out of 1000 (max. 8388607)
- 179 named destinations out of 1000 (max. 500000)
+ 837 PDF objects out of 1000 (max. 8388607)
+ 180 named destinations out of 1000 (max. 500000)
  403 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -61,12 +61,13 @@ Once the respective config is identified from the project, the targeted data sho
 	\label{fig:Analyzer_Activity_Diagram}
 \end{figure}
 \subsection{Component Evaluator}
-The OSS component evaluator is the final process of finding the vulnerabilities with the help of a vulnerability database. Once the server side application receives the json objects from the client application, the application will start searching the received components in the NVD database. First component names and versions will be searched under the CPE dictionary to verify the product has been registered in the CPE. If the component is found in the CPE dictionary, the service returns all the results of the component name. To verify the component name and the version is not a regular process because the CPE name has its own naming specification. The figure ~\ref{fig:cpe_name} is an example of the cpe naming specification.
+The OSS component evaluator is the final process of finding the vulnerabilities with the help of a vulnerability database. Once the server side application receives the json objects from the client application, the application will start searching the received components in the NVD database. First component names and versions will be searched under the CPE dictionary to verify the product has been registered in the CPE. If the component is found in the CPE dictionary, the service returns all the results of the component name. To verify the component name and the version is not a regular process because the CPE name has its own naming specification. The figure ~\ref{fig:cpe_name} is an example of the CPE naming specification.
  \begin{figure}[h!]
 	\includegraphics[width=15cm]{includes/cpe_name.png}
 	\centering
 	\caption{CPE name specification}
 	\label{fig:cpe_name}
 \end{figure}
+From the figure ~\ref{fig:cpe_name} it is visible that the component name and version are in the 3rd and 4th position of the CPE string. The given component name and version must be verified with the CPE name. As the second stage of verification, the given component name and CPE name is verified again by using the Hamming distance algorithm. By having this second stage of verification it can make sure the component is legit. Once the CPE name is validated with the given component, the next step will be retrieving the CVE details using the CPE name to find out the vulnerability information. CVE retrieval API services are used to find the vulnerability information. After retrieving the relevant vulnerability information of the component, the entire project information will be created as a JSON object and will be stored as a container in the Azure data storage.                                                                                                                 
 \subsection{Reporter}
 %
