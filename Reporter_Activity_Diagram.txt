@@ -1,0 +1,17 @@
+@startuml
+start
+:OSS Scanner;
+:Request report;
+if (Valid Request?) then (yes)
+ :Server;
+ :Get Project Info from Azure data storage;
+ :Project info json object;
+ :Convert json object to pdf with jspdf;
+ :download pdf file;
+else (no)
+ :Error message;
+ stop
+endif
+
+stop
+@enduml

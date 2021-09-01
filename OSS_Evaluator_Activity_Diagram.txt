@@ -1,0 +1,20 @@
+@startuml
+start
+:OSS components JSON;
+repeat 
+ :Search component name in CPE dictionary;
+ repeat :CPE results?;
+  :break cpe name string into array;
+  :Verification - component name & version against cpe name & version;
+  :Validation - string distance between component name and cpe name;
+  if (Verfication&Validation?) then (yes)
+   break
+  endif
+ repeat while (more result) is (yes)
+:Search vulnerability in CVE with cpe name;
+repeat while (OSS components?) is (yes)
+ ->no;
+:Generate json file with results;
+:Save as a container in Azure data storage;
+stop
+@enduml
