@@ -22,4 +22,5 @@
 \contentsline {figure}{\numberline {22}{\ignorespaces Django project config file}}{34}{figure.22}%
 \contentsline {figure}{\numberline {23}{\ignorespaces Maven project config file}}{34}{figure.23}%
 \contentsline {figure}{\numberline {24}{\ignorespaces Dotnet project config file}}{35}{figure.24}%
-\contentsline {figure}{\numberline {25}{\ignorespaces OSS component name and version extraction from Ruby on Rails project}}{36}{figure.25}%
+\contentsline {figure}{\numberline {25}{\ignorespaces \acs {OSS} component name and version extraction from Ruby on Rails project}}{36}{figure.25}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Vulnerability information of PyJwt 0.3.2 component from \acs {NVD} database}}{37}{figure.26}%

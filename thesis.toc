@@ -46,6 +46,7 @@
 \contentsline {subsection}{\numberline {6.1}Open-Source Software Discovery}{32}{subsection.6.1}%
 \contentsline {paragraph}{}{35}{section*.16}%
 \contentsline {subsection}{\numberline {6.2}Vulnerability Databases}{36}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Conclusion}{37}{section.7}%
-\contentsline {section}{\numberline {8}Future Work}{38}{section.8}%
-\contentsline {section}{References}{39}{section.8}%
+\contentsline {paragraph}{}{36}{section*.17}%
+\contentsline {section}{\numberline {7}Conclusion}{38}{section.7}%
+\contentsline {section}{\numberline {8}Future Work}{39}{section.8}%
+\contentsline {section}{References}{40}{section.8}%
