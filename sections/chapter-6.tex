@@ -62,3 +62,12 @@ The next database was Bugtraq(Security Focus) but unfortunately it has been shut
 	\caption{Vulnerability information of PyJwt 0.3.2 component from \acs{NVD} database}
 	\label{fig:nvdOutput}
 \end{figure}
+
+\subsection{Vulnerability Report:}
+The report will be ready to download once the vulnerability assessment is over. The main task of this module is to give a simple report of the \acs{OSS} component discovered and its vulnerability information. The report will have both \acs{CVSS} V2 and V3 properties, so that the user can asses the component based on their requirements. The \acs{CVE} and \acs{CPE} id will also be in the report, therefor the user can lookup for further information externally if it is need. This report will not take any decisions behalf of the user, it will just share the vulnerability details of each \acs{OSS} component. Based on the vulnerability information the user can decide whether they want keep the OSS component or move to the next possible version. Figure ~\ref{fig:nvdOutput} will illustrate how the report indicates vulnerability information of each \acs{OSS} component.
+\begin{figure}[H]
+	\includegraphics[width=15cm]{includes/report.PNG}
+	\centering
+	\caption{Sample Report of PyJwt 0.3.2 component from \acs{NVD} database}
+	\label{fig:report}
+\end{figure}

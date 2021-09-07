@@ -7,7 +7,7 @@ Reallocating 'name_of_file' (item size: 1) to 24 items.
 Database file #1: bibliography/references.bib
 Warning--entry type for "Gilad" isn't style-file defined
 --line 40 of file bibliography/references.bib
-Warning--entry type for "WinNT" isn't style-file defined
+Warning--entry type for "LinRo2021" isn't style-file defined
 --line 67 of file bibliography/references.bib
 Repeated entry---line 75 of file bibliography/references.bib
  : @inproceedings{KaDaPeTu2014
@@ -35,10 +35,6 @@ Warning--entry type for "Kaspersky" isn't style-file defined
 --line 255 of file bibliography/references.bib
 Warning--entry type for "Im2021" isn't style-file defined
 --line 298 of file bibliography/references.bib
-Repeated entry---line 306 of file bibliography/references.bib
- : @online{Rh2019
- :               ,
-I'm skipping whatever remains of this entry
 Warning--entry type for "Syamini" isn't style-file defined
 --line 366 of file bibliography/references.bib
 Warning--entry type for "Web2021" isn't style-file defined
@@ -77,6 +73,7 @@ Warning--entry type for "Mic2020" isn't style-file defined
 --line 653 of file bibliography/references.bib
 Warning--entry type for "Cat2021" isn't style-file defined
 --line 662 of file bibliography/references.bib
+Warning--I didn't find a database entry for "WinNT"
 Warning--to sort, need author or key in nist
 Warning--to sort, need author or key in SecurityFocus
 Warning--to sort, need author or key in IbmXforce
@@ -89,7 +86,7 @@ Warning--empty journal in KeJaSa2005
 Warning--empty journal in Alex2004
 You've used 57 entries,
             2543 wiz_defined-function locations,
-            848 strings with 10864 characters,
+            850 strings with 10882 characters,
 and the built_in function-call counts, 19466 in all, are:
 = -- 1912
 > -- 736
@@ -128,4 +125,4 @@ warning$ -- 10
 while$ -- 154
 width$ -- 62
 write$ -- 664
-(There were 5 error messages)
+(There were 4 error messages)

@@ -47,6 +47,10 @@
 \contentsline {paragraph}{}{35}{section*.16}%
 \contentsline {subsection}{\numberline {6.2}Vulnerability Databases}{36}{subsection.6.2}%
 \contentsline {paragraph}{}{36}{section*.17}%
-\contentsline {section}{\numberline {7}Conclusion}{38}{section.7}%
-\contentsline {section}{\numberline {8}Future Work}{39}{section.8}%
-\contentsline {section}{References}{40}{section.8}%
+\contentsline {subsection}{\numberline {6.3}Vulnerability Report:}{38}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Conclusion}{39}{section.7}%
+\contentsline {section}{\numberline {8}Future Work}{40}{section.8}%
+\contentsline {paragraph}{}{40}{section*.18}%
+\contentsline {paragraph}{}{40}{section*.19}%
+\contentsline {paragraph}{}{40}{section*.20}%
+\contentsline {section}{References}{41}{section*.20}%
