@@ -20,6 +20,14 @@
 \usepackage{hyperref}
 \usepackage{multirow}
 \usepackage{float}
+\usepackage{afterpage}
+\usepackage{tabularx}
+
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{1}%
+	\newpage}
 %\usepackage{svg}
 %
 % Einbindung des Grafik-Pakets

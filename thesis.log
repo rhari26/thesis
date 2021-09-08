@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.7.12)  7 SEP 2021 23:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.7.12)  9 SEP 2021 00:26
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -279,6 +279,36 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box51
 )
+(C:\Users\Z004303F\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\afterpag
+e.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks23
+\AP@partial=\box52
+\AP@footins=\box53
+)
+(C:\Users\Z004303F\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\tabularx
+.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(C:\Users\Z004303F\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.st
+y
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen150
+\ar@mcellbox=\box54
+\extrarowheight=\dimen151
+\NC@list=\toks24
+\extratabsurround=\skip61
+\backup@length=\skip62
+\ar@cellbox=\box55
+)
+\TX@col@width=\dimen152
+\TX@old@table=\dimen153
+\TX@old@col=\dimen154
+\TX@target=\dimen155
+\TX@delta=\dimen156
+\TX@cols=\count276
+\TX@ftn=\toks25
+)
 (C:\Users\Z004303F\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
 y
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
@@ -295,8 +325,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
 ))
 LaTeX Font Info:    Trying to load font information for T1+aer on input line 4.
 
@@ -307,8 +337,8 @@ File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 (C:\Users\Z004303F\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
 pdftex.def
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count276
-\l__pdf_internal_box=\box52
+\l__color_backend_stack_int=\count277
+\l__pdf_internal_box=\box56
 ) (thesis.aux)
 \openout1 = `thesis.aux'.
 
@@ -330,22 +360,22 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
-\c@lstlisting=\count277
+\c@lstlisting=\count278
 
 (C:\Users\Z004303F\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
 .mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count278
-\scratchdimen=\dimen152
-\scratchbox=\box53
-\nofMPsegments=\count279
-\nofMParguments=\count280
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count281
-\MPscratchDim=\dimen153
-\MPnumerator=\count282
-\makeMPintoPDFobject=\count283
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count279
+\scratchdimen=\dimen159
+\scratchbox=\box57
+\nofMPsegments=\count280
+\nofMParguments=\count281
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count282
+\MPscratchDim=\dimen160
+\MPnumerator=\count283
+\makeMPintoPDFobject=\count284
+\everyMPtoPDFconversion=\toks27
 )
 (C:\Users\Z004303F\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
 f-base.sty
@@ -374,7 +404,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 titlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count284
+\c@section@level=\count285
 )
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
@@ -574,13 +604,38 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 l.26 \subsection
                 {Vulnerability Analysis} <./includes/vulgraph.PNG>] [5])
 [6] (sections/chapter-3.tex [7] [8]
-<includes/networkanalysis.png, id=509, 1292.83pt x 688.5725pt>
-File: includes/networkanalysis.png Graphic file (type png)
-<use includes/networkanalysis.png>
-Package pdftex.def Info: includes/networkanalysis.png  used on input line 42.
-(pdftex.def)             Requested size: 426.79134pt x 227.31367pt.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
- has been already used, duplicate ignored
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]|\T1/aer/m/n/12 Network
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+\T1/aer/m/n/12 Com-po-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]|\T1/aer/m/n/12 SIP
+ []
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 112--112
+[]|\T1/aer/m/n/12 V (source, $\OML/cmm/m/it/12 H[]$\T1/aer/m/n/12 , 0.50, Linux
+-kernel-2.6.1, by-pass-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+[]|\T1/aer/m/n/12 Asterisk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+\T1/aer/m/n/12 Server
+ []
+
+[9pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
+as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 \use_ii:nn #1#2->#2
@@ -599,18 +654,21 @@ Package pdftex.def Info: includes/networkanalysis.png  used on input line 42.
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.49 
-      <./includes/networkanalysis.png>] [10]
 
-Package acronym Warning: Acronym `i' is not defined on input line 69.
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+l.116 \newpage
+              ] [10]
+
+Package acronym Warning: Acronym `i' is not defined on input line 138.
 
 [11]
-<includes/nvd.png, id=562, 1469.49pt x 840.13875pt>
+<includes/nvd.png, id=556, 1469.49pt x 840.13875pt>
 File: includes/nvd.png Graphic file (type png)
 <use includes/nvd.png>
-Package pdftex.def Info: includes/nvd.png  used on input line 74.
+Package pdftex.def Info: includes/nvd.png  used on input line 143.
 (pdftex.def)             Requested size: 426.79134pt x 244.00577pt.
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.3}
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -633,14 +691,14 @@ Package pdftex.def Info: includes/nvd.png  used on input line 74.
 
 \newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
                                                   
-l.83 \newpage
-              <./includes/nvd.png>]
-<includes/securityFocus.png, id=577, 902.37125pt x 604.2575pt>
+l.152 \newpage
+               <./includes/nvd.png>]
+<includes/securityFocus.png, id=570, 902.37125pt x 604.2575pt>
 File: includes/securityFocus.png Graphic file (type png)
 <use includes/securityFocus.png>
-Package pdftex.def Info: includes/securityFocus.png  used on input line 85.
+Package pdftex.def Info: includes/securityFocus.png  used on input line 154.
 (pdftex.def)             Requested size: 426.79134pt x 285.79901pt.
- [13pdfTeX warning (ext4): destination with the same identifier (name{figure.4}
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -663,14 +721,14 @@ Package pdftex.def Info: includes/securityFocus.png  used on input line 85.
 
 \newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
                                                   
-l.92 \newpage
-              <./includes/securityFocus.png>]
-<includes/ibm.png, id=589, 1431.3475pt x 734.745pt>
+l.161 \newpage
+               <./includes/securityFocus.png>]
+<includes/ibm.png, id=582, 1431.3475pt x 734.745pt>
 File: includes/ibm.png Graphic file (type png)
 <use includes/ibm.png>
-Package pdftex.def Info: includes/ibm.png  used on input line 94.
+Package pdftex.def Info: includes/ibm.png  used on input line 163.
 (pdftex.def)             Requested size: 426.79134pt x 219.07983pt.
- [14pdfTeX warning (ext4): destination with the same identifier (name{figure.5}
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.4}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -693,14 +751,14 @@ Package pdftex.def Info: includes/ibm.png  used on input line 94.
 
 \newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
                                                   
-l.101 \newpage
+l.170 \newpage
                <./includes/ibm.png>]
-<includes/cert-cc.png, id=604, 513.92pt x 403.5075pt>
+<includes/cert-cc.png, id=597, 513.92pt x 403.5075pt>
 File: includes/cert-cc.png Graphic file (type png)
 <use includes/cert-cc.png>
-Package pdftex.def Info: includes/cert-cc.png  used on input line 103.
+Package pdftex.def Info: includes/cert-cc.png  used on input line 172.
 (pdftex.def)             Requested size: 426.79134pt x 335.102pt.
- [15pdfTeX warning (ext4): destination with the same identifier (name{figure.6}
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.5}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -720,27 +778,15 @@ Package pdftex.def Info: includes/cert-cc.png  used on input line 103.
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-
-\par ...@m \@noitemerr {\@@par }\fi \else {\@@par 
-                                                  }\fi 
-\endtrivlist ...stfalse \fi \ifhmode \unskip \par 
-                                                  \else \@inmatherr {\end {\...
-
-\end  ...ook {env/#1/end}}\csname end#1\endcsname 
-                                                  \@checkend {#1}\expandafte...
-l.116 \end{description}
-                        <./includes/cert-cc.png>]
-<includes/webscraping.png, id=617, 513.92pt x 128.48pt>
+l.185 
+       <./includes/cert-cc.png>]
+<includes/webscraping.png, id=610, 513.92pt x 128.48pt>
 File: includes/webscraping.png Graphic file (type png)
 <use includes/webscraping.png>
-Package pdftex.def Info: includes/webscraping.png  used on input line 127.
+Package pdftex.def Info: includes/webscraping.png  used on input line 195.
 (pdftex.def)             Requested size: 426.79134pt x 106.69913pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[16] [17pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.7}) has been already used, duplicate ignored
+ [16] [17pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 \use_ii:nn #1#2->#2
@@ -759,19 +805,19 @@ e.7}) has been already used, duplicate ignored
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.137 
+l.205 
        <./includes/webscraping.png>] [18] [19] [20]
-<includes/hamming.png, id=662, 304.88907pt x 217.5628pt>
+<includes/hamming.png, id=654, 304.88907pt x 217.5628pt>
 File: includes/hamming.png Graphic file (type png)
 <use includes/hamming.png>
-Package pdftex.def Info: includes/hamming.png  used on input line 178.
+Package pdftex.def Info: includes/hamming.png  used on input line 248.
 (pdftex.def)             Requested size: 284.52756pt x 203.04173pt.
-<includes/levdist.png, id=666, 963.6pt x 203.76125pt>
+<includes/levdist.png, id=658, 963.6pt x 203.76125pt>
 File: includes/levdist.png Graphic file (type png)
 <use includes/levdist.png>
-Package pdftex.def Info: includes/levdist.png  used on input line 188.
+Package pdftex.def Info: includes/levdist.png  used on input line 258.
 (pdftex.def)             Requested size: 284.52756pt x 60.16501pt.
- [21pdfTeX warning (ext4): destination with the same identifier (name{figure.8}
+ [21pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -791,9 +837,9 @@ Package pdftex.def Info: includes/levdist.png  used on input line 188.
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.197 
+l.267 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-9}) has been already used, duplicate ignored
+8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 \use_ii:nn #1#2->#2
@@ -812,25 +858,49 @@ l.197
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.197 
+l.267 
        <./includes/hamming.png> <./includes/levdist.png>]
-<includes/dlevidist.png, id=674, 571.13374pt x 88.33pt>
+<includes/dlevidist.png, id=666, 571.13374pt x 88.33pt>
 File: includes/dlevidist.png Graphic file (type png)
 <use includes/dlevidist.png>
-Package pdftex.def Info: includes/dlevidist.png  used on input line 199.
+Package pdftex.def Info: includes/dlevidist.png  used on input line 269.
 (pdftex.def)             Requested size: 284.52756pt x 44.00449pt.
-<includes/jaro.png, id=676, 352.31625pt x 63.23625pt>
+<includes/jaro.png, id=668, 352.31625pt x 63.23625pt>
 File: includes/jaro.png Graphic file (type png)
 <use includes/jaro.png>
-Package pdftex.def Info: includes/jaro.png  used on input line 209.
+Package pdftex.def Info: includes/jaro.png  used on input line 279.
 (pdftex.def)             Requested size: 284.52756pt x 51.0686pt.
-<includes/jarowinkler.png, id=679, 368.37625pt x 17.06375pt>
+<includes/jarowinkler.png, id=671, 368.37625pt x 17.06375pt>
 File: includes/jarowinkler.png Graphic file (type png)
 <use includes/jarowinkler.png>
-Package pdftex.def Info: includes/jarowinkler.png  used on input line 218.
+Package pdftex.def Info: includes/jarowinkler.png  used on input line 288.
 (pdftex.def)             Requested size: 284.52756pt x 13.17972pt.
-) [22pdfTeX warning (ext4): destination with the same identifier (name{figure.1
-0}) has been already used, duplicate ignored
+) [22pdfTeX warning (ext4): destination with the same identifier (name{figure.9
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+\use_ii:nn #1#2->#2
+                   
+<argument> ...ipout:D \box_use:N \l_shipout_box }}
+                                                  \cs_set_eq:NN \protect \__...
+
+\use_ii:nn #1#2->#2
+                   
+<to be read again> \__shipout_execute_cont: 
+                                            \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+l.43 \newpage
+             pdfTeX warning (ext4): destination with the same identifier (name{
+figure.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 \use_ii:nn #1#2->#2
@@ -877,38 +947,14 @@ figure.11}) has been already used, duplicate ignored
 \newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
                                                   
 l.43 \newpage
-             pdfTeX warning (ext4): destination with the same identifier (name{
-figure.12}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-\use_ii:nn #1#2->#2
-                   
-<argument> ...ipout:D \box_use:N \l_shipout_box }}
-                                                  \cs_set_eq:NN \protect \__...
-
-\use_ii:nn #1#2->#2
-                   
-<to be read again> \__shipout_execute_cont: 
-                                            \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-
-\@opcol ...lumn \@outputdblcol \else \@outputpage 
-                                                  \fi \global \@mparbottom \...
-<output> ...specialoutput \else \@makecol \@opcol 
-                                                  \@startcolumn \@whilesw \i...
-
-\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
-                                                  
-l.43 \newpage
               <./includes/dlevidist.png> <./includes/jaro.png> <./includes/jaro
 winkler.png>] (sections/chapter-4.tex
-<includes/architetcure.png, id=696, 504.88625pt x 403.5075pt>
+<includes/architetcure.png, id=688, 504.88625pt x 403.5075pt>
 File: includes/architetcure.png Graphic file (type png)
 <use includes/architetcure.png>
 Package pdftex.def Info: includes/architetcure.png  used on input line 9.
 (pdftex.def)             Requested size: 426.79134pt x 341.09894pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.13
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.12
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -933,12 +979,12 @@ Package pdftex.def Info: includes/architetcure.png  used on input line 9.
                                                   
 l.14 \newpage
               <./includes/architetcure.png>]
-<includes/sequence_diagram.png, id=710, 1220.56pt x 933.4875pt>
+<includes/sequence_diagram.png, id=702, 1220.56pt x 933.4875pt>
 File: includes/sequence_diagram.png Graphic file (type png)
 <use includes/sequence_diagram.png>
 Package pdftex.def Info: includes/sequence_diagram.png  used on input line 17.
 (pdftex.def)             Requested size: 426.79134pt x 326.41216pt.
- [24pdfTeX warning (ext4): destination with the same identifier (name{figure.14
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.13
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -958,15 +1004,12 @@ Package pdftex.def Info: includes/sequence_diagram.png  used on input line 17.
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-
-\par ...@m \@noitemerr {\@@par }\fi \else {\@@par 
-                                                  }\fi 
 l.27 	
        <./includes/sequence_diagram.png>] [25]) [26] (sections/chapter-5.tex
 [27]
 Package acronym Info: Label `acro:OSS' newly defined as it shall be overridden
 although it is yet undefined on input line 55.
- [28pdfTeX warning (ext4): destination with the same identifier (name{table.1})
+ [28pdfTeX warning (ext4): destination with the same identifier (name{table.2})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -991,19 +1034,19 @@ although it is yet undefined on input line 55.
                                                   
 l.56 \newpage
              ]
-<includes/OSS_Analyzer_Activity_Diagram.png, id=766, 1757.81718pt x 858.20625pt
+<includes/OSS_Analyzer_Activity_Diagram.png, id=763, 1757.81718pt x 858.20625pt
 >
 File: includes/OSS_Analyzer_Activity_Diagram.png Graphic file (type png)
 <use includes/OSS_Analyzer_Activity_Diagram.png>
 Package pdftex.def Info: includes/OSS_Analyzer_Activity_Diagram.png  used on in
 put line 58.
 (pdftex.def)             Requested size: 426.79134pt x 208.35703pt.
-<includes/cpe_name.png, id=776, 694.84593pt x 176.91093pt>
+<includes/cpe_name.png, id=773, 694.84593pt x 176.91093pt>
 File: includes/cpe_name.png Graphic file (type png)
 <use includes/cpe_name.png>
 Package pdftex.def Info: includes/cpe_name.png  used on input line 66.
 (pdftex.def)             Requested size: 426.79134pt x 108.66055pt.
- [29pdfTeX warning (ext4): destination with the same identifier (name{figure.15
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.14
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -1028,7 +1071,7 @@ Package pdftex.def Info: includes/cpe_name.png  used on input line 66.
                                                   
 l.72 \newpage
              pdfTeX warning (ext4): destination with the same identifier (name{
-figure.16}) has been already used, duplicate ignored
+figure.15}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 \use_ii:nn #1#2->#2
@@ -1053,14 +1096,14 @@ figure.16}) has been already used, duplicate ignored
 l.72 \newpage
               <./includes/OSS_Analyzer_Activity_Diagram.png> <./includes/cpe_na
 me.png>]
-<includes/OSS_Evaluator_Activity_Diagram.png, id=791, 516.93124pt x 866.23625pt
+<includes/OSS_Evaluator_Activity_Diagram.png, id=788, 516.93124pt x 866.23625pt
 >
 File: includes/OSS_Evaluator_Activity_Diagram.png Graphic file (type png)
 <use includes/OSS_Evaluator_Activity_Diagram.png>
 Package pdftex.def Info: includes/OSS_Evaluator_Activity_Diagram.png  used on i
 nput line 74.
 (pdftex.def)             Requested size: 426.80482pt x 569.07416pt.
- [30pdfTeX warning (ext4): destination with the same identifier (name{figure.17
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.16
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -1086,14 +1129,14 @@ nput line 74.
 l.79 \newpage
                                                                             ...
  <./includes/OSS_Evaluator_Activity_Diagram.png (PNG copy)>]
-<includes/Reporter_Activity_Diagram.png, id=801, 422.57875pt x 500.87125pt>
+<includes/Reporter_Activity_Diagram.png, id=798, 422.57875pt x 500.87125pt>
 File: includes/Reporter_Activity_Diagram.png Graphic file (type png)
 <use includes/Reporter_Activity_Diagram.png>
 Package pdftex.def Info: includes/Reporter_Activity_Diagram.png  used on input 
 line 84.
 (pdftex.def)             Requested size: 426.79134pt x 505.87595pt.
 ) [31pdfTeX warning (ext4): destination with the same identifier (name{figure.1
-8}) has been already used, duplicate ignored
+7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 \use_ii:nn #1#2->#2
@@ -1118,22 +1161,22 @@ line 84.
 l.49 \newpage
               <./includes/Reporter_Activity_Diagram.png (PNG copy)>]
 (sections/chapter-6.tex
-<includes/laravel.PNG, id=815, 581.17125pt x 378.66469pt>
+<includes/laravel.PNG, id=812, 581.17125pt x 378.66469pt>
 File: includes/laravel.PNG Graphic file (type png)
 <use includes/laravel.PNG>
 Package pdftex.def Info: includes/laravel.PNG  used on input line 9.
 (pdftex.def)             Requested size: 426.79134pt x 278.08119pt.
-<includes/ruby.PNG, id=816, 727.96968pt x 446.41782pt>
+<includes/ruby.PNG, id=813, 727.96968pt x 446.41782pt>
 File: includes/ruby.PNG Graphic file (type png)
 <use includes/ruby.PNG>
 Package pdftex.def Info: includes/ruby.PNG  used on input line 15.
 (pdftex.def)             Requested size: 426.79134pt x 261.72896pt.
-<includes/gradle.PNG, id=817, 609.77812pt x 470.50781pt>
+<includes/gradle.PNG, id=814, 609.77812pt x 470.50781pt>
 File: includes/gradle.PNG Graphic file (type png)
 <use includes/gradle.PNG>
 Package pdftex.def Info: includes/gradle.PNG  used on input line 21.
 (pdftex.def)             Requested size: 426.79134pt x 329.3245pt.
- [32pdfTeX warning (ext4): destination with the same identifier (name{figure.19
+ [32pdfTeX warning (ext4): destination with the same identifier (name{figure.18
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -1160,17 +1203,17 @@ Package pdftex.def Info: includes/gradle.PNG  used on input line 21.
                                                   \@checkend {#1}\expandafte...
 l.25 \end{figure}
                   <./includes/laravel.PNG>]
-<includes/django.PNG, id=823, 392.96812pt x 278.54062pt>
+<includes/django.PNG, id=820, 392.96812pt x 278.54062pt>
 File: includes/django.PNG Graphic file (type png)
 <use includes/django.PNG>
 Package pdftex.def Info: includes/django.PNG  used on input line 27.
 (pdftex.def)             Requested size: 426.79134pt x 302.53645pt.
-<includes/pom.PNG, id=824, 545.03625pt x 388.45125pt>
+<includes/pom.PNG, id=821, 545.03625pt x 388.45125pt>
 File: includes/pom.PNG Graphic file (type png)
 <use includes/pom.PNG>
 Package pdftex.def Info: includes/pom.PNG  used on input line 33.
 (pdftex.def)             Requested size: 426.79134pt x 304.1762pt.
- [33pdfTeX warning (ext4): destination with the same identifier (name{figure.20
+ [33pdfTeX warning (ext4): destination with the same identifier (name{figure.19
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -1197,7 +1240,7 @@ Package pdftex.def Info: includes/pom.PNG  used on input line 33.
                                                   \@checkend {#1}\expandafte...
 l.37 \end{figure}
                  pdfTeX warning (ext4): destination with the same identifier (n
-ame{figure.21}) has been already used, duplicate ignored
+ame{figure.20}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 \use_ii:nn #1#2->#2
@@ -1223,12 +1266,12 @@ ame{figure.21}) has been already used, duplicate ignored
                                                   \@checkend {#1}\expandafte...
 l.37 \end{figure}
                   <./includes/ruby.PNG> <./includes/gradle.PNG>]
-<includes/dotnet.PNG, id=831, 678.28406pt x 517.935pt>
+<includes/dotnet.PNG, id=828, 678.28406pt x 517.935pt>
 File: includes/dotnet.PNG Graphic file (type png)
 <use includes/dotnet.PNG>
 Package pdftex.def Info: includes/dotnet.PNG  used on input line 39.
 (pdftex.def)             Requested size: 426.79134pt x 325.8898pt.
- [34pdfTeX warning (ext4): destination with the same identifier (name{figure.22
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.21
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -1250,7 +1293,7 @@ Package pdftex.def Info: includes/dotnet.PNG  used on input line 39.
                                                   \@startcolumn \@whilesw \i...
 l.44 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.2
-3}) has been already used, duplicate ignored
+2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 \use_ii:nn #1#2->#2
@@ -1271,7 +1314,7 @@ l.44
                                                   \@startcolumn \@whilesw \i...
 l.44 
       <./includes/django.PNG> <./includes/pom.PNG>] [35pdfTeX warning (ext4): d
-estination with the same identifier (name{figure.24}) has been already used, du
+estination with the same identifier (name{figure.23}) has been already used, du
 plicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -1296,17 +1339,17 @@ plicate ignored
                                                   
 l.47 \newpage
               <./includes/dotnet.PNG>]
-<includes/clientOutput.PNG, id=851, 541.27219pt x 560.0925pt>
+<includes/clientOutput.PNG, id=848, 541.27219pt x 560.0925pt>
 File: includes/clientOutput.PNG Graphic file (type png)
 <use includes/clientOutput.PNG>
 Package pdftex.def Info: includes/clientOutput.PNG  used on input line 49.
 (pdftex.def)             Requested size: 426.79134pt x 441.64778pt.
-<includes/nvdOutput.PNG, id=870, 611.28375pt x 677.53125pt>
+<includes/nvdOutput.PNG, id=867, 611.28375pt x 677.53125pt>
 File: includes/nvdOutput.PNG Graphic file (type png)
 <use includes/nvdOutput.PNG>
 Package pdftex.def Info: includes/nvdOutput.PNG  used on input line 60.
 (pdftex.def)             Requested size: 426.79134pt x 473.03838pt.
- [36pdfTeX warning (ext4): destination with the same identifier (name{figure.25
+ [36pdfTeX warning (ext4): destination with the same identifier (name{figure.24
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -1337,12 +1380,12 @@ Package pdftex.def Info: includes/nvdOutput.PNG  used on input line 60.
                                                   \@checkend {#1}\expandafte...
 l.64 \end{figure}
                   <./includes/clientOutput.PNG>]
-<includes/report.PNG, id=886, 706.89093pt x 621.07031pt>
+<includes/report.PNG, id=883, 706.89093pt x 621.07031pt>
 File: includes/report.PNG Graphic file (type png)
 <use includes/report.PNG>
 Package pdftex.def Info: includes/report.PNG  used on input line 69.
 (pdftex.def)             Requested size: 426.79134pt x 374.97633pt.
- [37pdfTeX warning (ext4): destination with the same identifier (name{figure.26
+ [37pdfTeX warning (ext4): destination with the same identifier (name{figure.25
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -1373,7 +1416,7 @@ Package pdftex.def Info: includes/report.PNG  used on input line 69.
                                                   \@checkend {#1}\expandafte...
 l.73 \end{figure}
                   <./includes/nvdOutput.PNG>]) [38pdfTeX warning (ext4): destin
-ation with the same identifier (name{figure.27}) has been already used, duplica
+ation with the same identifier (name{figure.26}) has been already used, duplica
 te ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
@@ -1422,37 +1465,32 @@ Underfull \hbox (badness 2698) in paragraph at lines 259--262
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 485EAE735EB5C783CAC1DEFF76A084F8;6602
-(rerunfilecheck)             After:  6B933A17E6A831319C73DF9A7200C5AD;6602.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: C95A6B4408CD08C43E0721163F924E03;6602.
  ) 
 Here is how much of TeX's memory you used:
- 11036 strings out of 479334
- 164525 string characters out of 2855659
- 468852 words of memory out of 3000000
- 28003 multiletter control sequences out of 15000+200000
+ 11151 strings out of 479334
+ 166118 string characters out of 2855659
+ 472309 words of memory out of 3000000
+ 28117 multiletter control sequences out of 15000+200000
  445403 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,12n,77p,2111b,484s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 76i,19n,77p,2111b,484s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmb10.pfb><C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmcsc10.pfb><C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Z004303F/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Z004303F/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Z004303F/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/
-Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
+s/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Z004303F/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Z004303F/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Z004303F/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/User
+s/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pf
 b><C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmti12.pfb><C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (53 pages, 1917978 bytes).
+cm/cmsy10.pfb><C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmti12.pfb><C:/Users/Z004303F/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on thesis.pdf (53 pages, 1609175 bytes).
 PDF statistics:
- 1023 PDF objects out of 1200 (max. 8388607)
- 210 named destinations out of 1000 (max. 500000)
- 482 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1022 PDF objects out of 1200 (max. 8388607)
+ 203 named destinations out of 1000 (max. 500000)
+ 477 words of extra memory for PDF output out of 10000 (max. 10000000)
 
