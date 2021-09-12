@@ -4,29 +4,29 @@ This chapter explains how the component is developed. The ways to overcome the d
 %
 \subsection{System Characteristics}
 When beginning the implementation, I decided to use a simple yet powerful programming language for both frontend and backend applications to obtain my results. The programing languages which I selected was javascript for frontend and C\# for the backend. To simplify my programming work, I used the Visual Studio Code IDE for the frontend and Visual Studio 2019 for the backend. The configuration of the computer used for implementation is as follows:
-\begin{description}
-	\item [$\bullet$]Operating System: Windows 10 Enterprise 2016 - 64-bit
-	\item [$\bullet$]Processor: Intel Core i7-6700 @ 3.4GHz
-	\item [$\bullet$]RAM: 16GB
-	\item [$\bullet$]HDD: 500GB
-\end{description}
+
+{\bf Operating System:} Windows 10 Enterprise 2016 - 64-bit\\
+{\bf Processor:} Intel Core i7-6700 @ 3.4GHz\\
+{\bf RAM:} 16GB\\
+{\bf HDD:} 500GB\\
+
 
 The software support tools used for frontend implementation are listed as follows:
-\begin{description}
-	\item [$\bullet$]Programming Language: Javascript
-	\item [$\bullet$]IDE: Visual Studio Code
-	\item [$\bullet$]Packet Manager: npm
-	\item [$\bullet$]Version Control: Azure Repos
-\end{description}
+
+{\bf Programming Language:} Javascript\\
+{\bf IDE:} Visual Studio Code\\
+{\bf Packet Manager:} npm\\
+{\bf Version Control:} Azure Repos\\
+
 
 The software support tools used for backend implementation are listed as follows:
-\begin{description}
-	\item [$\bullet$]Programming Language: C\#
-	\item [$\bullet$]IDE: Visual Studio 2019
-	\item [$\bullet$]Packet Manager: NuGet
-	\item [$\bullet$]Database: Azure Data Storage - Containers
-	\item [$\bullet$]Version Control: Azure Repos
-\end{description}
+
+{\bf Programming Language:} C\#\\
+{\bf IDE:} Visual Studio 2019\\
+{\bf Packet Manager:} NuGet\\
+{\bf Database:} Azure Data Storage - Containers\\
+{\bf Version Control:} Azure Repos\\
+
 
 All the infrastructure and software that I used are provided by evosoft GmbH.
 \subsection{OSS Component Analyzer}
@@ -52,23 +52,27 @@ The \acs{OSS} component analyzer is a starting point in the process of scanning 
 \end{center} 
 \end{table}
 
-Once the respective config is identified from the project, the targeted data should be scrapped from config files. To achieve this, the automated scrapping methods are used based on the config file type. For instance the user is scanning Maven project, then according to the table the config file is a XML file so therefore to scrap the targeted data DOM parsing method is used. Likewise for \acs{JSON} file json parsing methods can be used, text pattern matching methods can be used for text file, Gemfile, FIle and GRADLE files. After scrapping the targeted data, the next task is to generate a json object with the project general information and scrapped \ac{OSS} information and will be ready to send it to the \acs{OSS} evaluation process. 
-\newpage
- \begin{figure}[h!]
+Once the respective config is identified from the project, the targeted data should be scrapped from config files. To achieve this, the automated scrapping methods are used based on the config file type. For instance the user is scanning Maven project, then according to the table the config file is a XML file so therefore to scrap the targeted data \acs{DOM} parsing method is used. Likewise for \acs{JSON} file json parsing methods can be used, text pattern matching methods can be used for text file, Gemfile, FIle and GRADLE files. After scrapping the targeted data, the next task is to generate a json object with the project general information and scrapped \ac{OSS} information and will be ready to send it to the \acs{OSS} evaluation process. 
+
+The figure ~\ref{fig:Analyzer_Activity_Diagram} will illustrate the flow of how the \acs{OSS} component is extracted from the software project and send the meta information like component name and version for evaluation process. Firstly, the user must give the general input such as project name, project description, project members and the complete source code directory. Once the data is submitted, the first stage of validation is to check whether the required config file is available in the directory to identify the project's application framework. Once the scanner identifies the application framework, the \acs{OSS} components will be extracted based on the config file's file type. For instance, if the user submits a Gradle project for scanning, the scanner will search for the build.gradle file which looks like the figure ~\ref{fig:gradle} and will start the extraction process. In the extraction process the build.gradle file is iterated and read line by line with help of FileReader class in Angular framework until the line begins with a string "compile". The dependencies section is where all the project dependencies which is the \acs{OSS} components are registered and we know that every dependency under the dependency section starts with the string "compile". So whenever the strings starts with the string "compile", that particular line will consist the component name and version. Then the component name and version will be extracted out by using text pattern matching functions. Likewise, the same type of extraction is performed for Django and Ruby on Rails projects. For the other projects, a simple \acs{DOM} parser methods are used to extract the components because their file types are json and xml. Finally the extracted components will be converted to a json object along with the general information and will sent to the backend application for evaluation process.   
+
+ \begin{figure}[H]
 	\includegraphics[width=15cm]{includes/OSS_Analyzer_Activity_Diagram.png}
 	\centering
 	\caption{\acs{OSS} Component Analyzer Activity Diagram}
 	\label{fig:Analyzer_Activity_Diagram}
 \end{figure}
 \subsection{Component Evaluator}
-The \acs{OSS} component evaluator is the final process of finding the vulnerabilities with the help of a vulnerability database. Once the server side application receives the json objects from the client application, the application will start searching the received components in the \acs{NVD} database. First component names and versions will be searched under the \acs{CPE} dictionary to verify the product has been registered in the \acs{CPE}. If the component is found in the \acs{CPE} dictionary, the service returns all the results of the component name. To verify the component name and the version is not a regular process because the \acs{CPE} name has its own naming specification. The figure ~\ref{fig:cpe_name} is an example of the \acs{CPE} naming specification.
+The \acs{OSS} component evaluator is the final process of finding the vulnerabilities with the help of a vulnerability database. This backend application is developed by using ASP.NET. The searching can be done with the help of \acs{NVD}'s API services \cite{NVDApi}. Once the backend application receives the json objects from the client application, the application will start searching the OSS components in the \acs{NVD} database by using the end points provided in the API documentation \cite{NVDApi}. First component names and versions will be searched under the \acs{CPE} dictionary to verify the product has been registered in the \acs{CPE}. If the component is found in the \acs{CPE} dictionary, the service returns all the results of the component name. To verify the component name and the version is not a regular process because the \acs{CPE} name has its own naming specification. The figure ~\ref{fig:cpe_name} is an example of the \acs{CPE} naming specification.
  \begin{figure}[h!]
 	\includegraphics[width=15cm]{includes/cpe_name.png}
 	\centering
 	\caption{CPE name specification}
 	\label{fig:cpe_name}
 \end{figure}
-From the figure ~\ref{fig:cpe_name} it is visible that the component name and version are in the 3rd and 4th position of the \acs{CPE} string. The given component name and version must be verified with the \acs{CPE} name. As the second stage of verification, the given component name and \acs{CPE} name is verified again by using the Hamming distance algorithm. By having this second stage of verification it can make sure the component is legit. Once the \acs{CPE} name is validated with the given component, the next step will be retrieving the \acs{CVE} details using the \acs{CPE} name to find out the vulnerability information. \acs{CVE} retrieval API services are used to find the vulnerability information. After retrieving the relevant vulnerability information of the component, the entire project information will be created as a \acs{JSON} object and will be stored as a container in the Azure data storage.
+From the figure ~\ref{fig:cpe_name} it is visible that the component name and version are in the 3rd and 4th position of the \acs{CPE} string. The given component name and version must be verified with the \acs{CPE} name. As the second stage of verification, the given component name and \acs{CPE} name is verified again by using the Hamming distance algorithm. By having this second stage of verification it can make sure the component is not having any spelling mistake. Once the \acs{CPE} name is validated with the given component, the next step will be retrieving the \acs{CVE} details using the \acs{CPE} name to find out the vulnerability information. \acs{CVE} retrieval API services are used to find the vulnerability information \cite{NVDApi}. 
+
+The figure ~\ref{fig:Evaluator_Activity_Diagram} will illustrate hoe the OSS components are evaluated with help of NVD database. Firstly, the backend application will receive the request sent from the client application and the OSS components in the json object will be iterated to evaluate the each component. In the iteration the first process to search the component name in the CPE dictionary to verify the component is registered in the CPE dictionary by using the "https://services.nvd.nist.gov/rest/json/cpes/1.0?keyword=" API endpoint.   
 \newpage 
 \begin{figure}[h!]
 	\includegraphics[width=15cm,height=20cm]{includes/OSS_Evaluator_Activity_Diagram.png}

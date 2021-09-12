@@ -9,7 +9,7 @@ Neumann and Parker say that the new vulnerabilities of IT systems are evolved fr
 
 All the newly identified vulnerabilities should be stored in excel or a CSV file for later use. When compared to the no. of vulnerabilities today, the 90’s and late 2000 had very less number of vulnerabilities \cite{Rh2019}. The early vulnerability scanning software just gives a simple report of found vulnerabilities in the system and later this report has to be given to the IT security team to analyse the possible threats of the vulnerability. Then the report is sent to higher authority for a review and approval. This is such a manual process which has been used earlier to detect vulnerabilities in an active system \cite{Rh2019}. Manual scanning and repair strategies would soon become impractical as the number of vulnerabilities grew in following years and the necessity of vulnerability management became more apparent to companies. Now the future of vulnerability analysis is focusing on fully automated assessment.
 \subsubsection{Benefits}
-Lutz Lowis describes that attackers may usually repeat their exploits by reusing a susceptible service[20]. Despite many old and new threats there are few advantages to performing vulnerability analysis operations. Here are some advantages that can be achieved through a vulnerability assessment \cite{LoAc2011} \cite{Rh2019} \cite{VulTest}:
+Lutz Lowis describes that attackers may usually repeat their exploits by reusing a susceptible service[20]. Despite many old and new threats there are few advantages to performing vulnerability analysis operations. Here are some advantages that can be achieved through a vulnerability assessment [\cite{LoAc2011}, \cite{Rh2019}, \cite{VulTest}]:
 
 \textbf{Identify All Vulnerabilities:} A vulnerability analysis can identify all the possible vulnerabilities in the system where this can be identified by both organization and the attacker(hacker) if they use the same software for scanning. The organization has a higher advantage by fixing this issue before the attackers initiate. 
 	
@@ -206,7 +206,7 @@ Sergio Flores-Ruiz et al have explained black-box solution for the migration pro
 \subsubsection{Challenges}
 %
 %
-The usage of data scraping is expanding everyday and along with that the challenges also travels with it. The data scraping is useful for extracting information based on the requirements when it is being consumed but creating a data scraper is not a easy task. There are few challenges which has to be taken in consideration before creating an data scraper and the listed challenges is considered for only data scraping \cite{And2021}\cite{Mic2020}:
+The usage of data scraping is expanding everyday and along with that the challenges also travels with it. The data scraping is useful for extracting information based on the requirements when it is being consumed but creating a data scraper is not a easy task. There are few challenges which has to be taken in consideration before creating an data scraper and the listed challenges is considered for only data scraping [\cite{And2021},\cite{Mic2020}]:
 
 {\bf Complicated Data Structure:} This means the structure of the data source can be varied from one another. This challenge will occur when a system is trying to extract data from multiple data sources. This can be resolved if the developer designs a scraper effectively by focusing on the target data source.
 
@@ -241,52 +241,99 @@ Mostly data scraping used purposes like marketing and price research, monitoring
 \subsection{String Distance Metrics}
 Both supervised and unsupervised learning can benefit from distance measures. Distance measurements can be used for text mining, medical analysis, document categorization, and similarity analysis, among other things. The main purpose of string metrics is to correct a spelling mistake by calculating the distance between two data points or string, the calculation will give the string similarity between the given inputs. In simpler terms, it is a process of calculating distance between one text to another text to find similarity. Till now the string metrics are frequently used as information integration in areas like fraudulent detection, fingerprint analysis, plagiarism detection, ontology merging, DNA analysis, RNA analysis, image analysis, etc. The distance between strings may be calculated using a variety of algorithms. Each algorithm calculates the distance between strings but apart from this it also has some unique features \cite{Wu2020}. The following algorithms are:
 \subsubsection{Hamming Distance}
-Hamming distance is a simpler algorithm to calculate distance between two strings which was found by Richard Hamming who introduced this technique for Hamming codes. The algorithm performs  calculation to find the similarity in the given strings by comparing the changes in the position of the two strings \cite{Tok2015}.
+Hamming distance is a simpler algorithm to calculate distance between two strings which was found by Richard Hamming who introduced this technique for Hamming codes. The algorithm performs  calculation to find the similarity in the given strings by comparing the changes in the position of the two strings \cite{Tok2015}. The equation of hamming distance will look like Equation 1 and the ~\ref{tab:hammingTable} illustrates the distance value of the words \cite{Saed2021}.
+\begin{equation}
+	\label{eq:hamming}
+	\begin{aligned}	
+	{D_H} = \sum_{i-1}^{k} \vert {x_i} - {y_i}\vert \\
+	x = y\Rightarrow D = 0 \\
+	x \neq y\Rightarrow D = 1
+	\end{aligned}
+\end{equation}
 
-\newpage
-\begin{figure}[h!]
-	\includegraphics[width=10cm]{includes/hamming.png}
-	\centering
-	\caption{ Hamming Distance Formula \cite{Saed2021}.}
-	\label{fig:hamming}
-\end{figure}
-Figure ~\ref{fig:hamming} explains how the distance is calculated between the two strings sto find the similarity. The benefits of using hamming distance are it is simpler and effective to detect spelling mistakes or errors. They are also quite good and effective in data streams. The only disadvantage of using hamming distance is that the bandwidth usage is more.
+\begin{table}[h!]
+	\begin{center}
+		\begin{tabular}{ |c|c|c| } 
+			\hline
+			X & Y & Distance \\
+			\hline
+			Male & Male & 0 \\ 
+			Male & female & 1 \\ 
+			\hline
+		\end{tabular}
+		\caption{Distance between the word "Male" and "Female".}\label{tab:hammingTable}
+	\end{center} 
+\end{table} 
+
+Equation 1 explains how the distance is calculated between the two strings to find the similarity. The benefits of using hamming distance are it is simpler and effective to detect spelling mistakes or errors. They are also quite good and effective in data streams. The only disadvantage of using hamming distance is that the bandwidth usage is more.
 \subsubsection{Levenshtein distance}
-e Levenshtein distance algorithm is also used to find the distance between two strings along with a few operations to it. The algorithm was discovered by Vladimir Levenshtein from Russia. The Levenshtein distance is also known as the Edit-distance based algorithm because it computes the number of edits to find the distance. The edit contains three operations which are Insertion, Deletion and Substitution. To find less similarity between two strings, it requires more operation \cite{ChSa2019}. For example the distance between GILY and GEELY is 2 and two operations have been done which are substitution and deletion.
+e Levenshtein distance algorithm is also used to find the distance between two strings along with a few operations to it. The algorithm was discovered by Vladimir Levenshtein from Russia. The Levenshtein distance is also known as the Edit-distance based algorithm because it computes the number of edits to find the distance. The edit contains three operations which are Insertion, Deletion and Substitution. To find less similarity between two strings, it requires more operation \cite{ChSa2019}. For example the distance between GILY and GEELY is 2 and two operations have been done which are substitution and deletion. The equation of Levenshtein distance looks like Equation 2 \cite{Cuelogic}.
 
-\begin{figure}[h!]
-	\includegraphics[width=10cm]{includes/levdist.png}
-	\centering
-	\caption{ Levenshtein distance Formula \cite{Cuelogic}.}
-	\label{fig:levdist}
-\end{figure}
+\begin{equation}
+	\begin{aligned}
+		\label{eq:levdist}	
+		lev_{a,b}(i,j) = 
+		%\min \left \{
+		\begin{cases}
+			\max(i,j) & \text {if } mini(i,j) = 0,\\    
+			\min 
+			\begin{cases}
+				lev_{a,b}(i-1,j) + 1 \\
+			    lev_{a,b}(i-1-j) + 1 & \text                     otherwise. \\ 
+			    lev_{a,b}(i-1,j-1) + 1_{a_i\neq b_j} 	
+			\end{cases}
+		\end{cases}
+	%\caption{ Levenshtein distance Formula \cite{Cuelogic}.}
+	\end{aligned}
+\end{equation}
+
+
 The algorithm can be used for word suggestion and autocorrection by measuring how different two strings are by counting the number of character edits. Implementing the Levenshtein distance algorithm as a recursive implementation will cause massive complexity but this can be solved by using a proper memoization technique.
 
 \subsubsection{Damerau-Levenshtein distance}
-The Damerau-Levenshtein distance algorithm is an updated version of the Levenshtein distance algorithm. The one difference which separates  Damerau-Levenshtein from Levenshtein is that it includes another operation: transposition. It takes only a minimum number of operations to find the similarity of the strings by changing one word to another. The name Damerau-Levenshtein was derived from the scientists Frederick J. Damerau and Vladimir I. Levenshtein. The main benefit of using the Damerau-Levenshtein algorithm is that it is comparatively faster than its predecessor algorithm and it also saves time by avoiding Regex expression to calculate the similarity \cite{ChSa2019}. 
+The Damerau-Levenshtein distance algorithm is an updated version of the Levenshtein distance algorithm. The one difference which separates  Damerau-Levenshtein from Levenshtein is that it includes another operation: transposition. It takes only a minimum number of operations to find the similarity of the strings by changing one word to another. The name Damerau-Levenshtein was derived from the scientists Frederick J. Damerau and Vladimir I. Levenshtein. The main benefit of using the Damerau-Levenshtein algorithm is that it is comparatively faster than its predecessor algorithm and it also saves time by avoiding Regex expression to calculate the similarity \cite{ChSa2019}. The equation of Damerau-Levenshtein looks like Equattion 3 \cite{DamLeven}.
 
-\begin{figure}[h!]
-	\includegraphics[width=10cm]{includes/dlevidist.png}
-	\centering
-	\caption{ Damerau-Levenshtein Distance formula \cite{DamLeven}.}
-	\label{fig:dlevidist}
-\end{figure}
+\begin{equation}
+	\begin{aligned}
+		\label{eq:dlevidist}	
+		d_{a,b}(i,j) = 
+		%\min \left \{
+		\begin{cases}
+			0 & \text {if } i = 0 j = 0\\
+			d_{a,b}(i-1,j) + 1 & \text {if } i > 0\\
+			d_{a,b}(i,j-1) + 1 & \text {if } j > 0\\
+			d_{a,b}(i-1,j-1) + 1_{a_i\neq b_j} & \text {if } i,j > 0\\
+			d_{a,b}(i-2,j-2) + 1_{a_i\neq b_j} & \text {if } i,j > 1 and a[i] = b[j-1] and a[i-1] = b[j]\\
+		\end{cases}
+		%\caption{ Damerau-Levenshtein Distance formula \cite{DamLeven}.}
+	\end{aligned}
+\end{equation}
+
 In natural language processing, the Damerau–Levenshtein distance is a crucial factor. They are mainly considered in the area of DNA analysis and Fraudulent detection.
 \subsubsection{Jaro Distance}
-Jaro distance is a metric for comparing the similarity of two strings and it is defined using this formula.
+Jaro distance is a metric for comparing the similarity of two strings and it is defined using the Equation 4 \cite{JaroWinkler}.
 
-\begin{figure}[h!]
-	\includegraphics[width=10cm]{includes/jaro.png}
-	\centering
-	\caption{ Jaro similarity formula \cite{JaroWinkler}.}
-	\label{fig:jaro}
-\end{figure}
+\begin{equation}
+	\begin{aligned}
+		\label{eq:jaro}	
+		d_{a,b}(i,j) = 
+		%\min \left \{
+		\begin{cases}
+			0 & \text {if } m = 0\\
+			\dfrac{1}{3}\left( \dfrac{m}{s_1} + \dfrac{m}{s_2} + \dfrac{m - t}{m} \right) & \text otherwise\\
+			\
+		\end{cases}
+		%\caption{ Jaro similarity formula \cite{JaroWinkler}.}
+	\end{aligned}
+\end{equation}
+
 Here s1 and s2 are the two strings. m is considered as the number of matching characters and t is considered as half the number of matching characters. Unlike the other string distance algorithm, the Jaro distance ranges from 0 to 1 where 0 means no similarity and 1 has similarity \cite{Ak2021}. The result of the algorithm will be given as a float value.This can be used to check whether the two strings are the same or not. 
-The improved version of the Jaro similarity algorithm is the Jaro-Winkler distance algorithm. The Jaro-Winkler algorithm is also similar to Jaro similarity but the Winkler is built using prefix scale p for finding precise distance.
+The improved version of the Jaro similarity algorithm is the Jaro-Winkler distance algorithm. The Jaro-Winkler algorithm is also similar to Jaro similarity but the Winkler is built using prefix scale p for finding precise distance and the equation looks like Equation 5 \cite{Stat2021}.
 
-\begin{figure}[h!]
-	\includegraphics[width=10cm]{includes/jarowinkler.png}
-	\centering
-	\caption{ Jaro-Winkler similarity formula \cite{Stat2021}.}
-	\label{fig:jarowinkler}
-\end{figure}
+\begin{equation}
+	\begin{aligned}
+		\label{eq:jarowinkler}	
+		Sim_{JW}(s_1, s_2) = Sim_J(s_1,s_2) + lp[1 - Sim_J(s_1.s_2)]
+		%\caption{ Jaro-Winkler similarity formula \cite{Stat2021}.}
+	\end{aligned}
+\end{equation}

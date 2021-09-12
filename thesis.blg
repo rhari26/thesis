@@ -73,6 +73,8 @@ Warning--entry type for "Mic2020" isn't style-file defined
 --line 653 of file bibliography/references.bib
 Warning--entry type for "Cat2021" isn't style-file defined
 --line 662 of file bibliography/references.bib
+Warning--entry type for "NVDApi" isn't style-file defined
+--line 671 of file bibliography/references.bib
 Warning--I didn't find a database entry for "WinNT"
 Warning--to sort, need author or key in nist
 Warning--to sort, need author or key in SecurityFocus
@@ -84,45 +86,45 @@ Warning--empty booktitle in RaLo2016
 Warning--empty booktitle in AsRaRaYu2006
 Warning--empty journal in KeJaSa2005
 Warning--empty journal in Alex2004
-You've used 57 entries,
+You've used 58 entries,
             2543 wiz_defined-function locations,
-            850 strings with 10882 characters,
-and the built_in function-call counts, 19466 in all, are:
-= -- 1912
-> -- 736
-< -- 47
-+ -- 244
-- -- 229
-* -- 1122
-:= -- 2968
-add.period$ -- 158
-call.type$ -- 57
-change.case$ -- 315
-chr.to.int$ -- 55
-cite$ -- 73
-duplicate$ -- 861
-empty$ -- 1637
-format.name$ -- 310
-if$ -- 4196
+            854 strings with 10951 characters,
+and the built_in function-call counts, 19718 in all, are:
+= -- 1934
+> -- 744
+< -- 48
++ -- 246
+- -- 231
+* -- 1132
+:= -- 3006
+add.period$ -- 160
+call.type$ -- 58
+change.case$ -- 320
+chr.to.int$ -- 56
+cite$ -- 74
+duplicate$ -- 872
+empty$ -- 1662
+format.name$ -- 314
+if$ -- 4249
 int.to.chr$ -- 3
 int.to.str$ -- 0
 missing$ -- 23
-newline$ -- 263
-num.names$ -- 159
-pop$ -- 512
+newline$ -- 267
+num.names$ -- 162
+pop$ -- 523
 preamble$ -- 1
-purify$ -- 371
+purify$ -- 377
 quote$ -- 0
-skip$ -- 797
+skip$ -- 809
 stack$ -- 0
-substring$ -- 815
-swap$ -- 178
-text.length$ -- 47
-text.prefix$ -- 31
+substring$ -- 822
+swap$ -- 179
+text.length$ -- 48
+text.prefix$ -- 32
 top$ -- 0
-type$ -- 456
+type$ -- 464
 warning$ -- 10
-while$ -- 154
-width$ -- 62
-write$ -- 664
+while$ -- 156
+width$ -- 63
+write$ -- 673
 (There were 4 error messages)

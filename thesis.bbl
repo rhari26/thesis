@@ -182,6 +182,10 @@ Kartik Nayak, Daniel Marino, Petros Efstathopoulos, and Tudor Dumitra{\c{s}}.
   {\em Research in Attacks, Intrusions and Defenses}, pages 426--446, Cham,
   2014. Springer International Publishing.
 
+\bibitem[NVD]{NVDApi}
+NVD.
+\newblock New nvd cve/cpe api and legacy soap service retirement.
+
 \bibitem[Oos04]{Alex2004}
 Alex~van Oostenrijk.
 \newblock Screen scraping web services.
