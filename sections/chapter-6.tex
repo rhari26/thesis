@@ -4,37 +4,45 @@
 In this chapter, we summarize the results obtained from our experiments. Our experiment is mainly focused on automating the open-source software discovery and finding a suitable vulnerability database for vulnerability analysis.
 
 \subsection{Open-Source Software Discovery}
-As defined previously, the scanner has to scan \acs{OSS} components from different application framework projects. It means that the scanner should have a standard output function even if it scans different projects. In this experiment, first, we have tried using manual scrapping to understand how the \acs{OSS} components can be identified and where it is registered inside the project. Manual scrapping will be an easy solution if it is a small project, but it will be time-consuming if performed in a large scale project. Figure ~\ref{fig:laravel}, ~\ref{fig:ruby}, ~\ref{fig:gradle}, ~\ref{fig:django}, ~\ref{fig:pom} and ~\ref{fig:dotnet} shows where exactly the OSS components are registered in the project. With the help of manual scrapping from these files, we can extract the component name and version by traditional copy \& pasting technique. Then we have to search vulnerability information of each component in the vulnerability database. Therefore manual scrapping for big projects will be a time-consuming task, and also there is a possibility for human errors.
-\begin{figure}[h!]
-	\includegraphics[width=15cm]{includes/laravel.PNG}
+\subsubsection{Manual Scrapping}
+As defined previously, the scanner has to scan \acs{OSS} components from different application framework projects. It means that the scanner should have a standard output function even if it scans different projects. In this experiment, first, we have tried using manual scrapping to understand how the \acs{OSS} components can be identified and where it is stored inside the project. Manual scrapping will be an easy solution if it is a small project, but it will be time-consuming if performed in a large scale project. Figure ~\ref{fig:laravel}, ~\ref{fig:ruby}, ~\ref{fig:gradle}, ~\ref{fig:django}, ~\ref{fig:pom} and ~\ref{fig:dotnet} shows where exactly the OSS components are registered in the project. With the help of manual scrapping from these files, we can extract the component name and version by traditional copy \& pasting technique. Then we have to search vulnerability information of each component in the vulnerability database. Therefore manual scrapping for big projects will be a time-consuming task, and also there is a possibility for human errors.
+
+Figure ~\ref{fig:laravel} shows the composer.json file of the laravel framework project. In the composer.json file, the "require" and "require-dev" properties have the libraries and versions used in the project. Whenever the developer installs a library through the composer dependency manager, the installed library's name and version will be registered in the composer.json file.
+\begin{figure}[H]
+	\includegraphics[width=15cm,height=8cm]{includes/laravel.PNG}
 	\centering
 	\caption{Laravel project config file}
 	\label{fig:laravel}
 \end{figure}
+The figure ~\ref{fig:ruby} shows the Gemfile present inside a Ruby on Rails project. The developers will include all the required libraries and its version in the Gemfile, and the following way to include a library in a Gemfile is "gem <component\_name>, <version>".
 \begin{figure}[H]
 	\includegraphics[width=15cm]{includes/ruby.PNG}
 	\centering
 	\caption{Ruby on Rails project config file}
 	\label{fig:ruby}
 \end{figure}
+The figure ~\ref{fig:gradle} shows the build.gradle file present inside a Gradle project. All the required libraries of the project are listed under the "dependencies" section.
 \begin{figure}[H]
-	\includegraphics[width=15cm]{includes/gradle.PNG}
+	\includegraphics[width=15cm,height=9cm]{includes/gradle.PNG}
 	\centering
 	\caption{Gradle project config file}
 	\label{fig:gradle}
 \end{figure}
+Figure ~\ref{fig:django} shows the requirements.txt file present inside a Django project. All the libraries' names and versions will be stored in the requirements.txt file when installed through the pip packet-management system. The requirements.txt is a simple text file that contains only the component names and versions. 
 \begin{figure}[H]
-	\includegraphics[width=15cm]{includes/django.PNG}
+	\includegraphics[width=15cm,height=8cm]{includes/django.PNG}
 	\centering
 	\caption{Django project config file}
 	\label{fig:django}
 \end{figure}
+Figure ~\ref{fig:pom} shows the pom.xml file present inside a Maven project. All the required libraries of the project are listed under the "<dependencies>" tag. Each component will be listed under the "<dependency>" tag and under that component name, and the version will be mentioned under the "<artifactId>" and "<version>" tag, respectively.
 \begin{figure}[H]
-	\includegraphics[width=15cm]{includes/pom.PNG}
+	\includegraphics[width=15cm,height=9cm]{includes/pom.PNG}
 	\centering
 	\caption{Maven project config file}
 	\label{fig:pom}
 \end{figure}
+Figure ~\ref{fig:dotnet} shows the .csproj file present inside a .Net project. The libraries are installed through the Nuget dependency manager. The installed libraries' names and versions will be registered in the .csproj file, an XML file. The component information will be addressed in the "PackageReference>" tag, and the component will be registered under the "ItemGroup>" tag.
 \begin{figure}[H]
 	\includegraphics[width=15cm]{includes/dotnet.PNG}
 	\centering
@@ -42,6 +50,7 @@ As defined previously, the scanner has to scan \acs{OSS} components from differe
 	\label{fig:dotnet}
 \end{figure}
 
+\subsubsection{Automated Scrapping}
 After experimenting the manual scraping, we tried automating the process by using Automated scraping methods. \acs{DOM} parsing and text pattern matching methods are used for automated extraction. The main reason to use these two scraping methods is that the scanning takes place on the client-side. These two methods of scrapping can be achieved by using the Angular framework. For projects like Dotnet, Gradle, Laravel and Maven \acs{DOM} parsing methods are used because the config files of these projects are \acs{XML} and \acs{JSON} files. The text pattern matching methods are used for Django and Ruby on Rails projects. Finally, by using these two scraping methods, a generic function is created to give a final output as a \acs{JSON} object. Figure ~\ref{fig:clientOutput} will illustrate the extracted component from the Ruby on Rails project within the browser. Along with the component name and version, we have also shown from which file it is extracted. 
 \newpage
 \begin{figure}[H]

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.7.12)  13 SEP 2021 22:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.7.12)  14 SEP 2021 17:37
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -470,12 +470,12 @@ LaTeX Info: Redefining \nameref on input line 4.
 \@outlinefile=\write3
 \openout3 = `thesis.out'.
 
-<includes/vs-logo.pdf, id=174, 455.7025pt x 442.65375pt>
+<includes/vs-logo.pdf, id=182, 455.7025pt x 442.65375pt>
 File: includes/vs-logo.pdf Graphic file (type pdf)
 <use includes/vs-logo.pdf>
 Package pdftex.def Info: includes/vs-logo.pdf  used on input line 7.
 (pdftex.def)             Requested size: 76.15419pt x 73.97716pt.
-<includes/UB-Logo-neu_blau-cmyk.pdf, id=175, 427.5975pt x 427.5975pt>
+<includes/UB-Logo-neu_blau-cmyk.pdf, id=183, 427.5975pt x 427.5975pt>
 File: includes/UB-Logo-neu_blau-cmyk.pdf Graphic file (type pdf)
 <use includes/UB-Logo-neu_blau-cmyk.pdf>
 Package pdftex.def Info: includes/UB-Logo-neu_blau-cmyk.pdf  used on input line
@@ -614,7 +614,7 @@ LaTeX Warning: Hyper reference `acro:DOM' on page VI undefined on input line 18
 LaTeX Warning: Citation `WinNT' on page 1 undefined on input line 7.
 
 [1]) [2] (sections/chapter-2.tex
-<includes/vulgraph.PNG, id=414, 1009.52156pt x 387.69844pt>
+<includes/vulgraph.PNG, id=424, 1009.52156pt x 387.69844pt>
 File: includes/vulgraph.PNG Graphic file (type png)
 <use includes/vulgraph.PNG>
 Package pdftex.def Info: includes/vulgraph.PNG  used on input line 11.
@@ -708,7 +708,7 @@ l.116 \newpage
 Package acronym Warning: Acronym `i' is not defined on input line 138.
 
 [11]
-<includes/nvd.png, id=547, 1469.49pt x 840.13875pt>
+<includes/nvd.png, id=557, 1469.49pt x 840.13875pt>
 File: includes/nvd.png Graphic file (type png)
 <use includes/nvd.png>
 Package pdftex.def Info: includes/nvd.png  used on input line 143.
@@ -738,7 +738,7 @@ Package pdftex.def Info: includes/nvd.png  used on input line 143.
                                                   
 l.152 \newpage
                <./includes/nvd.png>]
-<includes/securityFocus.png, id=561, 902.37125pt x 604.2575pt>
+<includes/securityFocus.png, id=571, 902.37125pt x 604.2575pt>
 File: includes/securityFocus.png Graphic file (type png)
 <use includes/securityFocus.png>
 Package pdftex.def Info: includes/securityFocus.png  used on input line 154.
@@ -768,7 +768,7 @@ Package pdftex.def Info: includes/securityFocus.png  used on input line 154.
                                                   
 l.161 \newpage
                <./includes/securityFocus.png>]
-<includes/ibm.png, id=573, 1431.3475pt x 734.745pt>
+<includes/ibm.png, id=583, 1431.3475pt x 734.745pt>
 File: includes/ibm.png Graphic file (type png)
 <use includes/ibm.png>
 Package pdftex.def Info: includes/ibm.png  used on input line 163.
@@ -798,7 +798,7 @@ Package pdftex.def Info: includes/ibm.png  used on input line 163.
                                                   
 l.170 \newpage
                <./includes/ibm.png>]
-<includes/cert-cc.png, id=588, 513.92pt x 403.5075pt>
+<includes/cert-cc.png, id=598, 513.92pt x 403.5075pt>
 File: includes/cert-cc.png Graphic file (type png)
 <use includes/cert-cc.png>
 Package pdftex.def Info: includes/cert-cc.png  used on input line 172.
@@ -825,7 +825,7 @@ Package pdftex.def Info: includes/cert-cc.png  used on input line 172.
                                                   \@startcolumn \@whilesw \i...
 l.185 
        <./includes/cert-cc.png>]
-<includes/webscraping.png, id=601, 513.92pt x 128.48pt>
+<includes/webscraping.png, id=611, 513.92pt x 128.48pt>
 File: includes/webscraping.png Graphic file (type png)
 <use includes/webscraping.png>
 Package pdftex.def Info: includes/webscraping.png  used on input line 195.
@@ -874,7 +874,7 @@ ation with the same identifier (name{table.2}) has been already used, duplicate
                                                   \@startcolumn \@whilesw \i...
 l.271 
       ] [21]) [22] (sections/chapter-4.tex
-<includes/architetcure.png, id=688, 504.88625pt x 403.5075pt>
+<includes/architetcure.png, id=698, 504.88625pt x 403.5075pt>
 File: includes/architetcure.png Graphic file (type png)
 <use includes/architetcure.png>
 Package pdftex.def Info: includes/architetcure.png  used on input line 9.
@@ -904,7 +904,7 @@ Package pdftex.def Info: includes/architetcure.png  used on input line 9.
                                                   
 l.14 \newpage
               <./includes/architetcure.png>]
-<includes/sequence_diagram.png, id=703, 1220.56pt x 933.4875pt>
+<includes/sequence_diagram.png, id=713, 1220.56pt x 933.4875pt>
 File: includes/sequence_diagram.png Graphic file (type png)
 <use includes/sequence_diagram.png>
 Package pdftex.def Info: includes/sequence_diagram.png  used on input line 17.
@@ -948,7 +948,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--29
 [27]
 Package acronym Info: Label `acro:OSS' newly defined as it shall be overridden
 although it is yet undefined on input line 55.
-<includes/OSS_Analyzer_Activity_Diagram.png, id=767, 1757.81718pt x 858.20625pt
+<includes/OSS_Analyzer_Activity_Diagram.png, id=777, 1757.81718pt x 858.20625pt
 >
 File: includes/OSS_Analyzer_Activity_Diagram.png Graphic file (type png)
 <use includes/OSS_Analyzer_Activity_Diagram.png>
@@ -980,7 +980,7 @@ put line 60.
                                                   \@tempskipa #4\relax \@aft...
 l.65 \subsection
                 {Component Evaluator}]
-<includes/cpe_name.png, id=784, 694.84593pt x 176.91093pt>
+<includes/cpe_name.png, id=794, 694.84593pt x 176.91093pt>
 File: includes/cpe_name.png Graphic file (type png)
 <use includes/cpe_name.png>
 Package pdftex.def Info: includes/cpe_name.png  used on input line 68.
@@ -1039,7 +1039,7 @@ l.75 T
       he figure ~\ref{fig:Evaluator_Activity_Diagram} will illustrate the te...
  <./includes/OSS_Analyzer_Activity_Diagram.png> <./includes/cpe_name.png>]
 [30]
-<includes/OSS_Evaluator_Activity_Diagram.png, id=808, 516.93124pt x 866.23625pt
+<includes/OSS_Evaluator_Activity_Diagram.png, id=818, 516.93124pt x 866.23625pt
 >
 File: includes/OSS_Evaluator_Activity_Diagram.png Graphic file (type png)
 <use includes/OSS_Evaluator_Activity_Diagram.png>
@@ -1072,7 +1072,7 @@ nput line 78.
 l.83 \newpage
                                                                             ...
  <./includes/OSS_Evaluator_Activity_Diagram.png (PNG copy)>]
-<includes/Reporter_Activity_Diagram.png, id=818, 422.57875pt x 500.87125pt>
+<includes/Reporter_Activity_Diagram.png, id=828, 422.57875pt x 500.87125pt>
 File: includes/Reporter_Activity_Diagram.png Graphic file (type png)
 <use includes/Reporter_Activity_Diagram.png>
 Package pdftex.def Info: includes/Reporter_Activity_Diagram.png  used on input 
@@ -1104,21 +1104,16 @@ line 92.
 l.49 \newpage
               <./includes/Reporter_Activity_Diagram.png (PNG copy)>]
 (sections/chapter-6.tex
-<includes/laravel.PNG, id=832, 581.17125pt x 378.66469pt>
+<includes/laravel.PNG, id=843, 581.17125pt x 378.66469pt>
 File: includes/laravel.PNG Graphic file (type png)
 <use includes/laravel.PNG>
-Package pdftex.def Info: includes/laravel.PNG  used on input line 9.
-(pdftex.def)             Requested size: 426.79134pt x 278.08119pt.
-<includes/ruby.PNG, id=833, 727.96968pt x 446.41782pt>
+Package pdftex.def Info: includes/laravel.PNG  used on input line 12.
+(pdftex.def)             Requested size: 426.79659pt x 227.62234pt.
+<includes/ruby.PNG, id=845, 727.96968pt x 446.41782pt>
 File: includes/ruby.PNG Graphic file (type png)
 <use includes/ruby.PNG>
-Package pdftex.def Info: includes/ruby.PNG  used on input line 15.
+Package pdftex.def Info: includes/ruby.PNG  used on input line 19.
 (pdftex.def)             Requested size: 426.79134pt x 261.72896pt.
-<includes/gradle.PNG, id=834, 609.77812pt x 470.50781pt>
-File: includes/gradle.PNG Graphic file (type png)
-<use includes/gradle.PNG>
-Package pdftex.def Info: includes/gradle.PNG  used on input line 21.
-(pdftex.def)             Requested size: 426.79134pt x 329.3245pt.
  [33pdfTeX warning (ext4): destination with the same identifier (name{figure.13
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1139,23 +1134,27 @@ Package pdftex.def Info: includes/gradle.PNG  used on input line 21.
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
+<inserted text> \par 
+                     
+<to be read again> 
+                   \vskip 
+\endfigure ->\@endfloatbox \vskip 
+                                  \intextsep \if@flstyle \setbox \@currbox \...
 
-\endfigure ...box \columnwidth \fi \box \@currbox 
-                                                  \vskip \intextsep \relax 
 \end  ...ook {env/#1/end}}\csname end#1\endcsname 
                                                   \@checkend {#1}\expandafte...
-l.25 \end{figure}
+l.23 \end{figure}
                   <./includes/laravel.PNG>]
-<includes/django.PNG, id=840, 392.96812pt x 278.54062pt>
+<includes/gradle.PNG, id=852, 609.77812pt x 470.50781pt>
+File: includes/gradle.PNG Graphic file (type png)
+<use includes/gradle.PNG>
+Package pdftex.def Info: includes/gradle.PNG  used on input line 26.
+(pdftex.def)             Requested size: 426.80455pt x 256.07347pt.
+<includes/django.PNG, id=854, 392.96812pt x 278.54062pt>
 File: includes/django.PNG Graphic file (type png)
 <use includes/django.PNG>
-Package pdftex.def Info: includes/django.PNG  used on input line 27.
-(pdftex.def)             Requested size: 426.79134pt x 302.53645pt.
-<includes/pom.PNG, id=841, 545.03625pt x 388.45125pt>
-File: includes/pom.PNG Graphic file (type png)
-<use includes/pom.PNG>
-Package pdftex.def Info: includes/pom.PNG  used on input line 33.
-(pdftex.def)             Requested size: 426.79134pt x 304.1762pt.
+Package pdftex.def Info: includes/django.PNG  used on input line 33.
+(pdftex.def)             Requested size: 426.8217pt x 227.627pt.
  [34pdfTeX warning (ext4): destination with the same identifier (name{figure.14
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1176,9 +1175,13 @@ Package pdftex.def Info: includes/pom.PNG  used on input line 33.
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
+<inserted text> \par 
+                     
+<to be read again> 
+                   \vskip 
+\endfigure ->\@endfloatbox \vskip 
+                                  \intextsep \if@flstyle \setbox \@currbox \...
 
-\endfigure ...box \columnwidth \fi \box \@currbox 
-                                                  \vskip \intextsep \relax 
 \end  ...ook {env/#1/end}}\csname end#1\endcsname 
                                                   \@checkend {#1}\expandafte...
 l.37 \end{figure}
@@ -1202,17 +1205,26 @@ ame{figure.15}) has been already used, duplicate ignored
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
+<inserted text> \par 
+                     
+<to be read again> 
+                   \vskip 
+\endfigure ->\@endfloatbox \vskip 
+                                  \intextsep \if@flstyle \setbox \@currbox \...
 
-\endfigure ...box \columnwidth \fi \box \@currbox 
-                                                  \vskip \intextsep \relax 
 \end  ...ook {env/#1/end}}\csname end#1\endcsname 
                                                   \@checkend {#1}\expandafte...
 l.37 \end{figure}
                   <./includes/ruby.PNG> <./includes/gradle.PNG>]
-<includes/dotnet.PNG, id=848, 678.28406pt x 517.935pt>
+<includes/pom.PNG, id=862, 545.03625pt x 388.45125pt>
+File: includes/pom.PNG Graphic file (type png)
+<use includes/pom.PNG>
+Package pdftex.def Info: includes/pom.PNG  used on input line 40.
+(pdftex.def)             Requested size: 426.78989pt x 256.08224pt.
+<includes/dotnet.PNG, id=864, 678.28406pt x 517.935pt>
 File: includes/dotnet.PNG Graphic file (type png)
 <use includes/dotnet.PNG>
-Package pdftex.def Info: includes/dotnet.PNG  used on input line 39.
+Package pdftex.def Info: includes/dotnet.PNG  used on input line 47.
 (pdftex.def)             Requested size: 426.79134pt x 325.8898pt.
  [35pdfTeX warning (ext4): destination with the same identifier (name{figure.16
 }) has been already used, duplicate ignored
@@ -1234,9 +1246,18 @@ Package pdftex.def Info: includes/dotnet.PNG  used on input line 39.
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.44 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.1
-7}) has been already used, duplicate ignored
+<inserted text> \par 
+                     
+<to be read again> 
+                   \vskip 
+\endfigure ->\@endfloatbox \vskip 
+                                  \intextsep \if@flstyle \setbox \@currbox \...
+
+\end  ...ook {env/#1/end}}\csname end#1\endcsname 
+                                                  \@checkend {#1}\expandafte...
+l.51 \end{figure}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{figure.17}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 \use_ii:nn #1#2->#2
@@ -1255,10 +1276,19 @@ l.44
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.44 
-      <./includes/django.PNG> <./includes/pom.PNG>] [36pdfTeX warning (ext4): d
-estination with the same identifier (name{figure.18}) has been already used, du
-plicate ignored
+<inserted text> \par 
+                     
+<to be read again> 
+                   \vskip 
+\endfigure ->\@endfloatbox \vskip 
+                                  \intextsep \if@flstyle \setbox \@currbox \...
+
+\end  ...ook {env/#1/end}}\csname end#1\endcsname 
+                                                  \@checkend {#1}\expandafte...
+l.51 \end{figure}
+                  <./includes/django.PNG> <./includes/pom.PNG>] [36pdfTeX warni
+ng (ext4): destination with the same identifier (name{figure.18}) has been alre
+ady used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 \use_ii:nn #1#2->#2
@@ -1280,17 +1310,17 @@ plicate ignored
 
 \newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
                                                   
-l.46 \newpage
+l.55 \newpage
               <./includes/dotnet.PNG>]
-<includes/clientOutput.PNG, id=867, 541.27219pt x 560.0925pt>
+<includes/clientOutput.PNG, id=883, 541.27219pt x 560.0925pt>
 File: includes/clientOutput.PNG Graphic file (type png)
 <use includes/clientOutput.PNG>
-Package pdftex.def Info: includes/clientOutput.PNG  used on input line 48.
+Package pdftex.def Info: includes/clientOutput.PNG  used on input line 57.
 (pdftex.def)             Requested size: 426.79134pt x 441.64778pt.
-<includes/nvdOutput.PNG, id=886, 611.28375pt x 677.53125pt>
+<includes/nvdOutput.PNG, id=902, 611.28375pt x 677.53125pt>
 File: includes/nvdOutput.PNG Graphic file (type png)
 <use includes/nvdOutput.PNG>
-Package pdftex.def Info: includes/nvdOutput.PNG  used on input line 59.
+Package pdftex.def Info: includes/nvdOutput.PNG  used on input line 68.
 (pdftex.def)             Requested size: 426.79134pt x 473.03838pt.
  [37pdfTeX warning (ext4): destination with the same identifier (name{figure.19
 }) has been already used, duplicate ignored
@@ -1321,12 +1351,12 @@ Package pdftex.def Info: includes/nvdOutput.PNG  used on input line 59.
 
 \end  ...ook {env/#1/end}}\csname end#1\endcsname 
                                                   \@checkend {#1}\expandafte...
-l.63 \end{figure}
+l.72 \end{figure}
                   <./includes/clientOutput.PNG>]
-<includes/report.PNG, id=902, 706.89093pt x 621.07031pt>
+<includes/report.PNG, id=918, 706.89093pt x 621.07031pt>
 File: includes/report.PNG Graphic file (type png)
 <use includes/report.PNG>
-Package pdftex.def Info: includes/report.PNG  used on input line 68.
+Package pdftex.def Info: includes/report.PNG  used on input line 77.
 (pdftex.def)             Requested size: 426.79134pt x 374.97633pt.
  [38pdfTeX warning (ext4): destination with the same identifier (name{figure.20
 }) has been already used, duplicate ignored
@@ -1357,7 +1387,7 @@ Package pdftex.def Info: includes/report.PNG  used on input line 68.
 
 \end  ...ook {env/#1/end}}\csname end#1\endcsname 
                                                   \@checkend {#1}\expandafte...
-l.72 \end{figure}
+l.81 \end{figure}
                   <./includes/nvdOutput.PNG>]) [39pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.21}) has been already used, duplica
 te ignored
@@ -1409,13 +1439,13 @@ Underfull \hbox (badness 2698) in paragraph at lines 263--266
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2334E14599CF82EA2468FF814C246547;6809.
+(rerunfilecheck)             Checksum: B0FC0D8F6E0B8DB2A4AD7E7EF110FEF0;7126.
  ) 
 Here is how much of TeX's memory you used:
- 11733 strings out of 479334
- 172672 string characters out of 2855659
- 483405 words of memory out of 3000000
- 28691 multiletter control sequences out of 15000+200000
+ 11737 strings out of 479334
+ 172752 string characters out of 2855659
+ 483408 words of memory out of 3000000
+ 28693 multiletter control sequences out of 15000+200000
  449078 words of font info for 110 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,21n,77p,2418b,489s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1436,9 +1466,9 @@ l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Z004303F/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/User
 s/Z004303F/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.
 pfb>
-Output written on thesis.pdf (53 pages, 1597329 bytes).
+Output written on thesis.pdf (53 pages, 1602081 bytes).
 PDF statistics:
- 1047 PDF objects out of 1200 (max. 8388607)
- 200 named destinations out of 1000 (max. 500000)
- 460 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1063 PDF objects out of 1200 (max. 8388607)
+ 202 named destinations out of 1000 (max. 500000)
+ 476 words of extra memory for PDF output out of 10000 (max. 10000000)
 
