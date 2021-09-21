@@ -75,6 +75,8 @@ Warning--entry type for "Cat2021" isn't style-file defined
 --line 662 of file bibliography/references.bib
 Warning--entry type for "NVDApi" isn't style-file defined
 --line 671 of file bibliography/references.bib
+Warning--entry type for "copyleft" isn't style-file defined
+--line 679 of file bibliography/references.bib
 Warning--I didn't find a database entry for "WinNT"
 Warning--to sort, need author or key in nist
 Warning--to sort, need author or key in SecurityFocus
@@ -86,45 +88,45 @@ Warning--empty booktitle in RaLo2016
 Warning--empty booktitle in AsRaRaYu2006
 Warning--empty journal in KeJaSa2005
 Warning--empty journal in Alex2004
-You've used 58 entries,
+You've used 59 entries,
             2543 wiz_defined-function locations,
-            854 strings with 10951 characters,
-and the built_in function-call counts, 19718 in all, are:
-= -- 1934
-> -- 744
-< -- 48
-+ -- 246
-- -- 231
-* -- 1132
-:= -- 3006
-add.period$ -- 160
-call.type$ -- 58
-change.case$ -- 320
+            856 strings with 10967 characters,
+and the built_in function-call counts, 19970 in all, are:
+= -- 1956
+> -- 752
+< -- 49
++ -- 249
+- -- 233
+* -- 1142
+:= -- 3043
+add.period$ -- 162
+call.type$ -- 59
+change.case$ -- 325
 chr.to.int$ -- 56
-cite$ -- 74
-duplicate$ -- 872
-empty$ -- 1662
-format.name$ -- 314
-if$ -- 4249
-int.to.chr$ -- 3
+cite$ -- 75
+duplicate$ -- 883
+empty$ -- 1687
+format.name$ -- 318
+if$ -- 4302
+int.to.chr$ -- 4
 int.to.str$ -- 0
 missing$ -- 23
-newline$ -- 267
-num.names$ -- 162
-pop$ -- 523
+newline$ -- 271
+num.names$ -- 165
+pop$ -- 534
 preamble$ -- 1
-purify$ -- 377
+purify$ -- 383
 quote$ -- 0
-skip$ -- 809
+skip$ -- 821
 stack$ -- 0
-substring$ -- 822
-swap$ -- 179
-text.length$ -- 48
-text.prefix$ -- 32
+substring$ -- 829
+swap$ -- 180
+text.length$ -- 49
+text.prefix$ -- 33
 top$ -- 0
-type$ -- 464
+type$ -- 472
 warning$ -- 10
-while$ -- 156
-width$ -- 63
-write$ -- 673
+while$ -- 158
+width$ -- 64
+write$ -- 682
 (There were 4 error messages)

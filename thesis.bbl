@@ -274,11 +274,15 @@ Zhaohui Wei.
   library.
 \newblock {\em Procedia Engineering}, 15:1662--1667, 12 2011.
 
-\bibitem[Wika]{DamLeven}
+\bibitem[Wika]{copyleft}
+Wikipedia.
+\newblock Copyleft.
+
+\bibitem[Wikb]{DamLeven}
 Wikipedia.
 \newblock Damerau–levenshtein distance.
 
-\bibitem[Wikb]{JaroWinkler}
+\bibitem[Wikc]{JaroWinkler}
 Wikipedia.
 \newblock Jaro–winkler distance.
 

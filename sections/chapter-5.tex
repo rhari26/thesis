@@ -3,7 +3,7 @@
 This chapter explains how the component is developed. The ways to overcome the design challenges, some of the findings during the development have been written down.
 %
 \subsection{System Characteristics}
-When beginning the implementation, I decided to use a simple yet powerful programming language for both frontend and backend applications to obtain my results. The programming languages which I selected was javascript for the frontend and C\# for the backend. I used the Visual Studio Code IDE for the frontend and Visual Studio 2019 for the backend to simplify my programming work. The configuration of the computer used for implementation is as follows:
+When beginning the implementation, I decided to use a simple yet powerful programming language for both frontend and backend applications to obtain my results. The programming languages which I selected was typescript for the frontend and C\# for the backend. I used the Visual Studio Code IDE for the frontend and Visual Studio 2019 for the backend to simplify my programming work. The configuration of the computer used for implementation is as follows:
 
 {\bf Operating System:} Windows 10 Enterprise 2016 - 64-bit\\
 {\bf Processor:} Intel Core i7-6700 @ 3.4GHz\\
@@ -13,7 +13,7 @@ When beginning the implementation, I decided to use a simple yet powerful progra
 
 The software support tools used for frontend implementation are listed as follows:
 
-{\bf Programming Language:} Javascript\\
+{\bf Programming Language:} Typescript\\
 {\bf IDE:} Visual Studio Code\\
 {\bf Packet Manager:} npm\\
 {\bf Version Control:} Azure Repos\\
@@ -24,7 +24,7 @@ The software support tools used for backend implementation are listed as follows
 {\bf Programming Language:} C\#\\
 {\bf IDE:} Visual Studio 2019\\
 {\bf Packet Manager:} NuGet\\
-{\bf Database:} Azure Data Storage - Containers\\
+{\bf Database:} Azure Data Storage - Blob Containers\\
 {\bf Version Control:} Azure Repos\\
 
 
@@ -57,7 +57,8 @@ Once the respective config is identified from the project, the targeted data sho
 The figure ~\ref{fig:Analyzer_Activity_Diagram} will illustrate the technical flow of how the \acs{OSS} component is extracted from the software project and send the meta-information like component name and version for the evaluation process. Firstly, the user must give the public input such as project name, project description, project members and the complete source code directory. Once the data is submitted, the first validation stage is to check whether the required config file is available in the directory to identify the project's application framework. Once the scanner identifies the application framework, the \acs{OSS} components will be extracted based on the config file's file type. For instance, the scanner will search for the build if the user submits a Gradle project for scanning .gradle file, which looks like the figure ~\ref{fig:gradle} and will start the extraction process. In the extraction process, the build.gradle file is iterated and read line by line with the help of FileReader class in Angular framework until the line begins with a string "compile". The dependencies section is where all the project dependencies, which is the \acs{OSS} components, are registered, and we know that every dependency under the dependency section starts with the string "compile". So whenever the strings start with the string "compile", that particular line will consist of the component name and version. Then the component name and version will be extracted out by using text pattern matching functions. Likewise, the same type of extraction is performed for Django and Ruby on Rails projects. For the other projects, simple \acs{DOM} parser methods are used to extract the components because their file types are JSON and XML. Finally, the extracted components will be converted to a JSON object and the general information and sent to the backend application for the evaluation process.   
 
  \begin{figure}[H]
-	\includegraphics[width=15cm]{includes/OSS_Analyzer_Activity_Diagram.png}
+ 	\centering
+	\includegraphics[width=17cm,height=10cm]{includes/OSS_Analyzer_Activity_Diagram.png}
 	\centering
 	\caption{\acs{OSS} Component Analyzer Activity Diagram}
 	\label{fig:Analyzer_Activity_Diagram}
@@ -65,7 +66,7 @@ The figure ~\ref{fig:Analyzer_Activity_Diagram} will illustrate the technical fl
 \subsection{Component Evaluator}
 The \acs{OSS} component evaluator is the final process of finding the vulnerabilities with the help of a vulnerability database. This backend application is developed by using ASP.NET. The searching can be done with the help of \acs{NVD}'s API services \cite{NVDApi}. Once the backend application receives the JSON objects from the client application, the application will start searching the OSS components in the \acs{NVD} database by using the endpoints provided in the API documentation \cite{NVDApi}. First component names and versions will be searched under the \acs{CPE} dictionary to verify the product has been registered in the \acs{CPE}. If the component is found in the \acs{CPE} dictionary, the service returns all the results of the component name. To verify the component name and the version is not a normal process because the \acs{CPE} name has its naming specification. The figure ~\ref{fig:cpe_name} is an example of the \acs{CPE} naming specification.
  \begin{figure}[h!]
-	\includegraphics[width=15cm]{includes/cpe_name.png}
+	\includegraphics[width=16cm]{includes/cpe_name.png}
 	\centering
 	\caption{CPE name specification}
 	\label{fig:cpe_name}
